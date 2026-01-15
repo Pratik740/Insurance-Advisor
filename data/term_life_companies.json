@@ -1,0 +1,1307 @@
+[
+  {
+    "company_name": "Life Insurance Corporation of India (LIC)",
+    "plan_id": "COMP_001",
+    "plan_name": "Pure Term Life Plan",
+    "claim_settlement_ratio": 99.76,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 95,
+    "min_life_cover": 5000000,
+    "max_life_cover": 20000000,
+    "base_rate": 0.83,
+    "solvency_ratio": 1.67,
+    "avg_claim_settlement_days": 5,
+    "digital_purchase_discount": 10,
+    "features": [
+      "Whole life cover option",
+      "Life-stage cover enhancement",
+      "Flexible premium payment options"
+    ],
+    "exclusions": [
+      "Fraudulent non-disclosure",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "SBI Life Insurance",
+    "plan_id": "COMP_002",
+    "plan_name": "Smart Protect Term Plan",
+    "claim_settlement_ratio": 97.86,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 95,
+    "min_life_cover": 5000000,
+    "max_life_cover": 50000000,
+    "base_rate": 0.94,
+    "solvency_ratio": 2.05,
+    "avg_claim_settlement_days": 7,
+    "digital_purchase_discount": 5,
+    "features": [
+      "Flexible premium payment options",
+      "Tax benefit under Section 80C",
+      "Death benefit payout"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Fraudulent non-disclosure"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "HDFC Life Insurance",
+    "plan_id": "COMP_003",
+    "plan_name": "Prime Term Protection Plan",
+    "claim_settlement_ratio": 97.03,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 85,
+    "min_life_cover": 5000000,
+    "max_life_cover": 20000000,
+    "base_rate": 0.93,
+    "solvency_ratio": 2.24,
+    "avg_claim_settlement_days": 1,
+    "digital_purchase_discount": 10,
+    "features": [
+      "Death benefit payout",
+      "Flexible premium payment options",
+      "Whole life cover option"
+    ],
+    "exclusions": [
+      "Suicide within first 12 months",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "ICICI Prudential Life Insurance",
+    "plan_id": "COMP_004",
+    "plan_name": "Pure Term Life Plan",
+    "claim_settlement_ratio": 98.89,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 80,
+    "min_life_cover": 5000000,
+    "max_life_cover": 50000000,
+    "base_rate": 0.84,
+    "solvency_ratio": 1.81,
+    "avg_claim_settlement_days": 5,
+    "digital_purchase_discount": 10,
+    "features": [
+      "Tax benefit under Section 80C",
+      "Flexible premium payment options",
+      "Whole life cover option"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "Tata AIA Life Insurance",
+    "plan_id": "COMP_005",
+    "plan_name": "Secure Life Term Plan",
+    "claim_settlement_ratio": 99.69,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 95,
+    "min_life_cover": 5000000,
+    "max_life_cover": 100000000,
+    "base_rate": 0.99,
+    "solvency_ratio": 2.4,
+    "avg_claim_settlement_days": 2,
+    "digital_purchase_discount": 15,
+    "features": [
+      "Tax benefit under Section 80C",
+      "Death benefit payout",
+      "Life-stage cover enhancement"
+    ],
+    "exclusions": [
+      "Fraudulent non-disclosure",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "Bajaj Allianz Life Insurance",
+    "plan_id": "COMP_006",
+    "plan_name": "Secure Life Term Plan",
+    "claim_settlement_ratio": 98.8,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 90,
+    "min_life_cover": 5000000,
+    "max_life_cover": 20000000,
+    "base_rate": 1.05,
+    "solvency_ratio": 2.14,
+    "avg_claim_settlement_days": 5,
+    "digital_purchase_discount": 5,
+    "features": [
+      "Life-stage cover enhancement",
+      "Flexible premium payment options",
+      "Tax benefit under Section 80C"
+    ],
+    "exclusions": [
+      "Suicide within first 12 months",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "Max Life Insurance",
+    "plan_id": "COMP_007",
+    "plan_name": "Pure Term Life Plan",
+    "claim_settlement_ratio": 97.1,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 95,
+    "min_life_cover": 5000000,
+    "max_life_cover": 50000000,
+    "base_rate": 0.81,
+    "solvency_ratio": 2.47,
+    "avg_claim_settlement_days": 3,
+    "digital_purchase_discount": 10,
+    "features": [
+      "Life-stage cover enhancement",
+      "Death benefit payout",
+      "Flexible premium payment options"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Fraudulent non-disclosure"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "Kotak Mahindra Life Insurance",
+    "plan_id": "COMP_008",
+    "plan_name": "Life Shield Term Assurance",
+    "claim_settlement_ratio": 98.86,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 90,
+    "min_life_cover": 5000000,
+    "max_life_cover": 50000000,
+    "base_rate": 0.94,
+    "solvency_ratio": 2.41,
+    "avg_claim_settlement_days": 3,
+    "digital_purchase_discount": 15,
+    "features": [
+      "Tax benefit under Section 80C",
+      "Flexible premium payment options",
+      "Whole life cover option"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Fraudulent non-disclosure"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "Aditya Birla Sun Life Insurance",
+    "plan_id": "COMP_009",
+    "plan_name": "Smart Protect Term Plan",
+    "claim_settlement_ratio": 98.02,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 80,
+    "min_life_cover": 5000000,
+    "max_life_cover": 10000000,
+    "base_rate": 0.87,
+    "solvency_ratio": 2.09,
+    "avg_claim_settlement_days": 2,
+    "digital_purchase_discount": 5,
+    "features": [
+      "Life-stage cover enhancement",
+      "Whole life cover option",
+      "Death benefit payout"
+    ],
+    "exclusions": [
+      "Suicide within first 12 months",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "PNB MetLife India Insurance",
+    "plan_id": "COMP_010",
+    "plan_name": "Pure Term Life Plan",
+    "claim_settlement_ratio": 97.22,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 95,
+    "min_life_cover": 5000000,
+    "max_life_cover": 20000000,
+    "base_rate": 0.96,
+    "solvency_ratio": 2.48,
+    "avg_claim_settlement_days": 5,
+    "digital_purchase_discount": 5,
+    "features": [
+      "Tax benefit under Section 80C",
+      "Death benefit payout",
+      "Flexible premium payment options"
+    ],
+    "exclusions": [
+      "Suicide within first 12 months",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "IndiaFirst Life Insurance",
+    "plan_id": "COMP_011",
+    "plan_name": "Smart Protect Term Plan",
+    "claim_settlement_ratio": 97.26,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 90,
+    "min_life_cover": 5000000,
+    "max_life_cover": 100000000,
+    "base_rate": 0.94,
+    "solvency_ratio": 1.85,
+    "avg_claim_settlement_days": 2,
+    "digital_purchase_discount": 15,
+    "features": [
+      "Tax benefit under Section 80C",
+      "Whole life cover option",
+      "Flexible premium payment options"
+    ],
+    "exclusions": [
+      "Suicide within first 12 months",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "Exide Life Insurance",
+    "plan_id": "COMP_012",
+    "plan_name": "Secure Life Term Plan",
+    "claim_settlement_ratio": 97.68,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 80,
+    "min_life_cover": 5000000,
+    "max_life_cover": 50000000,
+    "base_rate": 0.84,
+    "solvency_ratio": 2.25,
+    "avg_claim_settlement_days": 7,
+    "digital_purchase_discount": 5,
+    "features": [
+      "Whole life cover option",
+      "Flexible premium payment options",
+      "Tax benefit under Section 80C"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "Shriram Life Insurance",
+    "plan_id": "COMP_013",
+    "plan_name": "Smart Protect Term Plan",
+    "claim_settlement_ratio": 99.29,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 80,
+    "min_life_cover": 5000000,
+    "max_life_cover": 50000000,
+    "base_rate": 1.02,
+    "solvency_ratio": 2.06,
+    "avg_claim_settlement_days": 1,
+    "digital_purchase_discount": 15,
+    "features": [
+      "Whole life cover option",
+      "Flexible premium payment options",
+      "Life-stage cover enhancement"
+    ],
+    "exclusions": [
+      "Suicide within first 12 months",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "Sahara India Life Insurance",
+    "plan_id": "COMP_014",
+    "plan_name": "Prime Term Protection Plan",
+    "claim_settlement_ratio": 97.97,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 90,
+    "min_life_cover": 5000000,
+    "max_life_cover": 100000000,
+    "base_rate": 0.85,
+    "solvency_ratio": 2.26,
+    "avg_claim_settlement_days": 5,
+    "digital_purchase_discount": 15,
+    "features": [
+      "Life-stage cover enhancement",
+      "Whole life cover option",
+      "Death benefit payout"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "Reliance Nippon Life Insurance",
+    "plan_id": "COMP_015",
+    "plan_name": "Life Shield Term Assurance",
+    "claim_settlement_ratio": 98.96,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 90,
+    "min_life_cover": 5000000,
+    "max_life_cover": 20000000,
+    "base_rate": 0.84,
+    "solvency_ratio": 1.69,
+    "avg_claim_settlement_days": 1,
+    "digital_purchase_discount": 10,
+    "features": [
+      "Life-stage cover enhancement",
+      "Tax benefit under Section 80C",
+      "Flexible premium payment options"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Fraudulent non-disclosure"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "HDFC ERGO General Insurance",
+    "plan_id": "COMP_016",
+    "plan_name": "Smart Protect Term Plan",
+    "claim_settlement_ratio": 99.51,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 85,
+    "min_life_cover": 5000000,
+    "max_life_cover": 20000000,
+    "base_rate": 1.04,
+    "solvency_ratio": 2.48,
+    "avg_claim_settlement_days": 7,
+    "digital_purchase_discount": 15,
+    "features": [
+      "Death benefit payout",
+      "Life-stage cover enhancement",
+      "Flexible premium payment options"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Fraudulent non-disclosure"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "ICICI Lombard General Insurance",
+    "plan_id": "COMP_017",
+    "plan_name": "Secure Life Term Plan",
+    "claim_settlement_ratio": 99.41,
+    "min_entry_age": 18,
+    "max_entry_age":50,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 90,
+    "min_life_cover": 5000000,
+    "max_life_cover": 50000000,
+    "base_rate": 0.91,
+    "solvency_ratio": 1.76,
+    "avg_claim_settlement_days": 5,
+    "digital_purchase_discount": 15,
+    "features": [
+      "Life-stage cover enhancement",
+      "Whole life cover option",
+      "Flexible premium payment options"
+    ],
+    "exclusions": [
+      "Fraudulent non-disclosure",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "Tata AIG General Insurance",
+    "plan_id": "COMP_018",
+    "plan_name": "Smart Protect Term Plan",
+    "claim_settlement_ratio": 99.35,
+    "min_entry_age": 18,
+    "max_entry_age": 50,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 80,
+    "min_life_cover": 5000000,
+    "max_life_cover": 50000000,
+    "base_rate": 0.89,
+    "solvency_ratio": 1.79,
+    "avg_claim_settlement_days": 2,
+    "digital_purchase_discount": 10,
+    "features": [
+      "Life-stage cover enhancement",
+      "Whole life cover option",
+      "Death benefit payout"
+    ],
+    "exclusions": [
+      "Fraudulent non-disclosure",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "Bajaj Allianz General Insurance",
+    "plan_id": "COMP_019",
+    "plan_name": "Secure Life Term Plan",
+    "claim_settlement_ratio": 98.1,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 90,
+    "min_life_cover": 5000000,
+    "max_life_cover": 10000000,
+    "base_rate": 0.99,
+    "solvency_ratio": 1.65,
+    "avg_claim_settlement_days": 2,
+    "digital_purchase_discount": 5,
+    "features": [
+      "Life-stage cover enhancement",
+      "Tax benefit under Section 80C",
+      "Flexible premium payment options"
+    ],
+    "exclusions": [
+      "Fraudulent non-disclosure",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "SBI General Insurance",
+    "plan_id": "COMP_020",
+    "plan_name": "Smart Protect Term Plan",
+    "claim_settlement_ratio": 99.53,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 85,
+    "min_life_cover": 5000000,
+    "max_life_cover": 10000000,
+    "base_rate": 1.01,
+    "solvency_ratio": 1.69,
+    "avg_claim_settlement_days": 2,
+    "digital_purchase_discount": 5,
+    "features": [
+      "Death benefit payout",
+      "Whole life cover option",
+      "Life-stage cover enhancement"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "Go Digit General Insurance",
+    "plan_id": "COMP_021",
+    "plan_name": "Life Shield Term Assurance",
+    "claim_settlement_ratio": 99.08,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 90,
+    "min_life_cover": 5000000,
+    "max_life_cover": 10000000,
+    "base_rate": 0.89,
+    "solvency_ratio": 2.23,
+    "avg_claim_settlement_days": 3,
+    "digital_purchase_discount": 5,
+    "features": [
+      "Life-stage cover enhancement",
+      "Flexible premium payment options",
+      "Death benefit payout"
+    ],
+    "exclusions": [
+      "Suicide within first 12 months",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "Acko General Insurance",
+    "plan_id": "COMP_022",
+    "plan_name": "Life Shield Term Assurance",
+    "claim_settlement_ratio": 97.33,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 80,
+    "min_life_cover": 5000000,
+    "max_life_cover": 100000000,
+    "base_rate": 0.89,
+    "solvency_ratio": 2.1,
+    "avg_claim_settlement_days": 2,
+    "digital_purchase_discount": 5,
+    "features": [
+      "Life-stage cover enhancement",
+      "Whole life cover option",
+      "Tax benefit under Section 80C"
+    ],
+    "exclusions": [
+      "Fraudulent non-disclosure",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "Star Health & Allied Insurance",
+    "plan_id": "COMP_023",
+    "plan_name": "Prime Term Protection Plan",
+    "claim_settlement_ratio": 98.71,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 80,
+    "min_life_cover": 5000000,
+    "max_life_cover": 100000000,
+    "base_rate": 0.82,
+    "solvency_ratio": 1.61,
+    "avg_claim_settlement_days": 5,
+    "digital_purchase_discount": 10,
+    "features": [
+      "Death benefit payout",
+      "Life-stage cover enhancement",
+      "Tax benefit under Section 80C"
+    ],
+    "exclusions": [
+      "Fraudulent non-disclosure",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "Care Health Insurance",
+    "plan_id": "COMP_024",
+    "plan_name": "Life Shield Term Assurance",
+    "claim_settlement_ratio": 98.2,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 85,
+    "min_life_cover": 5000000,
+    "max_life_cover": 20000000,
+    "base_rate": 0.93,
+    "solvency_ratio": 1.86,
+    "avg_claim_settlement_days": 1,
+    "digital_purchase_discount": 5,
+    "features": [
+      "Tax benefit under Section 80C",
+      "Whole life cover option",
+      "Life-stage cover enhancement"
+    ],
+    "exclusions": [
+      "Suicide within first 12 months",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "Niva Bupa Health Insurance",
+    "plan_id": "COMP_025",
+    "plan_name": "Life Shield Term Assurance",
+    "claim_settlement_ratio": 99.36,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 85,
+    "min_life_cover": 5000000,
+    "max_life_cover": 20000000,
+    "base_rate": 0.95,
+    "solvency_ratio": 2.1,
+    "avg_claim_settlement_days": 2,
+    "digital_purchase_discount": 10,
+    "features": [
+      "Tax benefit under Section 80C",
+      "Flexible premium payment options",
+      "Life-stage cover enhancement"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "Aditya Birla Health Insurance",
+    "plan_id": "COMP_026",
+    "plan_name": "Secure Life Term Plan",
+    "claim_settlement_ratio": 97.94,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 95,
+    "min_life_cover": 5000000,
+    "max_life_cover": 100000000,
+    "base_rate": 0.88,
+    "solvency_ratio": 2.07,
+    "avg_claim_settlement_days": 7,
+    "digital_purchase_discount": 10,
+    "features": [
+      "Tax benefit under Section 80C",
+      "Flexible premium payment options",
+      "Whole life cover option"
+    ],
+    "exclusions": [
+      "Fraudulent non-disclosure",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "ManipalCigna Health Insurance",
+    "plan_id": "COMP_027",
+    "plan_name": "Life Shield Term Assurance",
+    "claim_settlement_ratio": 97.34,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 95,
+    "min_life_cover": 5000000,
+    "max_life_cover": 100000000,
+    "base_rate": 1.01,
+    "solvency_ratio": 2.43,
+    "avg_claim_settlement_days": 7,
+    "digital_purchase_discount": 10,
+    "features": [
+      "Life-stage cover enhancement",
+      "Flexible premium payment options",
+      "Tax benefit under Section 80C"
+    ],
+    "exclusions": [
+      "Fraudulent non-disclosure",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "Future Generali India Insurance",
+    "plan_id": "COMP_028",
+    "plan_name": "Prime Term Protection Plan",
+    "claim_settlement_ratio": 97.82,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 85,
+    "min_life_cover": 5000000,
+    "max_life_cover": 100000000,
+    "base_rate": 0.82,
+    "solvency_ratio": 2.29,
+    "avg_claim_settlement_days": 7,
+    "digital_purchase_discount": 15,
+    "features": [
+      "Flexible premium payment options",
+      "Life-stage cover enhancement",
+      "Tax benefit under Section 80C"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "IFFCO Tokio General Insurance",
+    "plan_id": "COMP_029",
+    "plan_name": "Life Shield Term Assurance",
+    "claim_settlement_ratio": 97.08,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 80,
+    "min_life_cover": 5000000,
+    "max_life_cover": 20000000,
+    "base_rate": 0.82,
+    "solvency_ratio": 2.34,
+    "avg_claim_settlement_days": 5,
+    "digital_purchase_discount": 5,
+    "features": [
+      "Flexible premium payment options",
+      "Tax benefit under Section 80C",
+      "Whole life cover option"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "Reliance General Insurance",
+    "plan_id": "COMP_030",
+    "plan_name": "Pure Term Life Plan",
+    "claim_settlement_ratio": 98.12,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 95,
+    "min_life_cover": 5000000,
+    "max_life_cover": 10000000,
+    "base_rate": 0.92,
+    "solvency_ratio": 1.84,
+    "avg_claim_settlement_days": 3,
+    "digital_purchase_discount": 5,
+    "features": [
+      "Life-stage cover enhancement",
+      "Death benefit payout",
+      "Flexible premium payment options"
+    ],
+    "exclusions": [
+      "Fraudulent non-disclosure",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "Royal Sundaram General Insurance",
+    "plan_id": "COMP_031",
+    "plan_name": "Secure Life Term Plan",
+    "claim_settlement_ratio": 99.72,
+    "min_entry_age": 18,
+    "max_entry_age": 50,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 80,
+    "min_life_cover": 5000000,
+    "max_life_cover": 100000000,
+    "base_rate": 0.82,
+    "solvency_ratio": 2.15,
+    "avg_claim_settlement_days": 5,
+    "digital_purchase_discount": 15,
+    "features": [
+      "Death benefit payout",
+      "Flexible premium payment options",
+      "Life-stage cover enhancement"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Fraudulent non-disclosure"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "Cholamandalam MS General Insurance",
+    "plan_id": "COMP_032",
+    "plan_name": "Secure Life Term Plan",
+    "claim_settlement_ratio": 98.21,
+    "min_entry_age": 18,
+    "max_entry_age": 50,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 95,
+    "min_life_cover": 5000000,
+    "max_life_cover": 10000000,
+    "base_rate": 0.98,
+    "solvency_ratio": 2.2,
+    "avg_claim_settlement_days": 1,
+    "digital_purchase_discount": 10,
+    "features": [
+      "Flexible premium payment options",
+      "Tax benefit under Section 80C",
+      "Life-stage cover enhancement"
+    ],
+    "exclusions": [
+      "Fraudulent non-disclosure",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "Liberty General Insurance",
+    "plan_id": "COMP_033",
+    "plan_name": "Prime Term Protection Plan",
+    "claim_settlement_ratio": 99.47,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 95,
+    "min_life_cover": 5000000,
+    "max_life_cover": 100000000,
+    "base_rate": 0.92,
+    "solvency_ratio": 1.92,
+    "avg_claim_settlement_days": 5,
+    "digital_purchase_discount": 15,
+    "features": [
+      "Life-stage cover enhancement",
+      "Death benefit payout",
+      "Whole life cover option"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "National Insurance Co. Ltd.",
+    "plan_id": "COMP_034",
+    "plan_name": "Life Shield Term Assurance",
+    "claim_settlement_ratio": 98.19,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 85,
+    "min_life_cover": 5000000,
+    "max_life_cover": 100000000,
+    "base_rate": 0.94,
+    "solvency_ratio": 2.1,
+    "avg_claim_settlement_days": 5,
+    "digital_purchase_discount": 5,
+    "features": [
+      "Tax benefit under Section 80C",
+      "Whole life cover option",
+      "Life-stage cover enhancement"
+    ],
+    "exclusions": [
+      "Suicide within first 12 months",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "The New India Assurance Co. Ltd.",
+    "plan_id": "COMP_035",
+    "plan_name": "Pure Term Life Plan",
+    "claim_settlement_ratio": 98.21,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 85,
+    "min_life_cover": 5000000,
+    "max_life_cover": 20000000,
+    "base_rate": 0.95,
+    "solvency_ratio": 2.46,
+    "avg_claim_settlement_days": 7,
+    "digital_purchase_discount": 10,
+    "features": [
+      "Whole life cover option",
+      "Flexible premium payment options",
+      "Life-stage cover enhancement"
+    ],
+    "exclusions": [
+      "Suicide within first 12 months",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "The Oriental Insurance Co. Ltd.",
+    "plan_id": "COMP_036",
+    "plan_name": "Pure Term Life Plan",
+    "claim_settlement_ratio": 99.01,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 80,
+    "min_life_cover": 5000000,
+    "max_life_cover": 10000000,
+    "base_rate": 0.88,
+    "solvency_ratio": 2.01,
+    "avg_claim_settlement_days": 5,
+    "digital_purchase_discount": 15,
+    "features": [
+      "Life-stage cover enhancement",
+      "Whole life cover option",
+      "Death benefit payout"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  },
+  {
+    "company_name": "United India Insurance Co. Ltd.",
+    "plan_id": "COMP_037",
+    "plan_name": "Smart Protect Term Plan",
+    "claim_settlement_ratio": 98.55,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 90,
+    "min_life_cover": 5000000,
+    "max_life_cover": 20000000,
+    "base_rate": 0.82,
+    "solvency_ratio": 1.67,
+    "avg_claim_settlement_days": 2,
+    "digital_purchase_discount": 5,
+    "features": [
+      "Life-stage cover enhancement",
+      "Flexible premium payment options",
+      "Death benefit payout"
+    ],
+    "exclusions": [
+      "Fraudulent non-disclosure",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "Allianz",
+    "plan_id": "COMP_038",
+    "plan_name": "Pure Term Life Plan",
+    "claim_settlement_ratio": 98.75,
+    "min_entry_age": 18,
+    "max_entry_age": 50,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 90,
+    "min_life_cover": 5000000,
+    "max_life_cover": 100000000,
+    "base_rate": 0.95,
+    "solvency_ratio": 2.39,
+    "avg_claim_settlement_days": 1,
+    "digital_purchase_discount": 15,
+    "features": [
+      "Death benefit payout",
+      "Flexible premium payment options",
+      "Life-stage cover enhancement"
+    ],
+    "exclusions": [
+      "Suicide within first 12 months",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "AXA",
+    "plan_id": "COMP_039",
+    "plan_name": "Pure Term Life Plan",
+    "claim_settlement_ratio": 98.18,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 90,
+    "min_life_cover": 5000000,
+    "max_life_cover": 10000000,
+    "base_rate": 0.99,
+    "solvency_ratio": 1.88,
+    "avg_claim_settlement_days": 7,
+    "digital_purchase_discount": 10,
+    "features": [
+      "Whole life cover option",
+      "Tax benefit under Section 80C",
+      "Flexible premium payment options"
+    ],
+    "exclusions": [
+      "Suicide within first 12 months",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "MetLife",
+    "plan_id": "COMP_040",
+    "plan_name": "Life Shield Term Assurance",
+    "claim_settlement_ratio": 98.35,
+    "min_entry_age": 18,
+    "max_entry_age": 50,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 95,
+    "min_life_cover": 5000000,
+    "max_life_cover": 20000000,
+    "base_rate": 0.89,
+    "solvency_ratio": 2.26,
+    "avg_claim_settlement_days": 3,
+    "digital_purchase_discount": 15,
+    "features": [
+      "Tax benefit under Section 80C",
+      "Whole life cover option",
+      "Flexible premium payment options"
+    ],
+    "exclusions": [
+      "Fraudulent non-disclosure",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "Cigna",
+    "plan_id": "COMP_041",
+    "plan_name": "Secure Life Term Plan",
+    "claim_settlement_ratio": 99.39,
+    "min_entry_age": 18,
+    "max_entry_age": 57,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 95,
+    "min_life_cover": 5000000,
+    "max_life_cover": 20000000,
+    "base_rate": 0.97,
+    "solvency_ratio": 2.2,
+    "avg_claim_settlement_days": 2,
+    "digital_purchase_discount": 10,
+    "features": [
+      "Tax benefit under Section 80C",
+      "Life-stage cover enhancement",
+      "Whole life cover option"
+    ],
+    "exclusions": [
+      "Fraudulent non-disclosure",
+      "War or terrorism-related death"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "Generali",
+    "plan_id": "COMP_042",
+    "plan_name": "Smart Protect Term Plan",
+    "claim_settlement_ratio": 99.11,
+    "min_entry_age": 18,
+    "max_entry_age": 50,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 80,
+    "min_life_cover": 5000000,
+    "max_life_cover": 20000000,
+    "base_rate": 1.05,
+    "solvency_ratio": 1.82,
+    "avg_claim_settlement_days": 7,
+    "digital_purchase_discount": 5,
+    "features": [
+      "Tax benefit under Section 80C",
+      "Death benefit payout",
+      "Life-stage cover enhancement"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Fraudulent non-disclosure"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "Sumitomo Mitsui Insurance",
+    "plan_id": "COMP_043",
+    "plan_name": "Prime Term Protection Plan",
+    "claim_settlement_ratio": 98.34,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 85,
+    "min_life_cover": 5000000,
+    "max_life_cover": 50000000,
+    "base_rate": 0.84,
+    "solvency_ratio": 2.02,
+    "avg_claim_settlement_days": 2,
+    "digital_purchase_discount": 5,
+    "features": [
+      "Flexible premium payment options",
+      "Tax benefit under Section 80C",
+      "Whole life cover option"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "AIG",
+    "plan_id": "COMP_044",
+    "plan_name": "Life Shield Term Assurance",
+    "claim_settlement_ratio": 98.82,
+    "min_entry_age": 18,
+    "max_entry_age": 50,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 85,
+    "min_life_cover": 5000000,
+    "max_life_cover": 50000000,
+    "base_rate": 0.84,
+    "solvency_ratio": 1.71,
+    "avg_claim_settlement_days": 3,
+    "digital_purchase_discount": 10,
+    "features": [
+      "Flexible premium payment options",
+      "Life-stage cover enhancement",
+      "Tax benefit under Section 80C"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Fraudulent non-disclosure"
+    ],
+    "optional_riders": [
+      "Accidental Death Benefit Rider",
+      "Critical Illness Rider"
+    ]
+  },
+  {
+    "company_name": "Liberty Mutual",
+    "plan_id": "COMP_045",
+    "plan_name": "Life Shield Term Assurance",
+    "claim_settlement_ratio": 98.64,
+    "min_entry_age": 18,
+    "max_entry_age": 55,
+    "min_cover_till_age": 60,
+    "max_cover_till_age": 85,
+    "min_life_cover": 5000000,
+    "max_life_cover": 20000000,
+    "base_rate": 0.99,
+    "solvency_ratio": 1.76,
+    "avg_claim_settlement_days": 5,
+    "digital_purchase_discount": 10,
+    "features": [
+      "Flexible premium payment options",
+      "Tax benefit under Section 80C",
+      "Life-stage cover enhancement"
+    ],
+    "exclusions": [
+      "War or terrorism-related death",
+      "Suicide within first 12 months"
+    ],
+    "optional_riders": [
+      "Critical Illness Rider",
+      "Accidental Death Benefit Rider"
+    ]
+  }
+]
