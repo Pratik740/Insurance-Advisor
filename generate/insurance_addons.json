@@ -1,0 +1,1997 @@
+[
+  {
+    "id": "COMP_001_ci",
+    "metadata": {
+      "chunk_text": "Life Insurance Corporation of India (LIC) Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "Life Insurance Corporation of India (LIC)",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_001",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_002_child_edu",
+    "metadata": {
+      "chunk_text": "SBI Life Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "SBI Life Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_002",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_002_tpd",
+    "metadata": {
+      "chunk_text": "SBI Life Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "SBI Life Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_002",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_003_child_edu",
+    "metadata": {
+      "chunk_text": "HDFC Life Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "HDFC Life Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_003",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_003_ci",
+    "metadata": {
+      "chunk_text": "HDFC Life Insurance Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "HDFC Life Insurance",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_003",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_004_tpd",
+    "metadata": {
+      "chunk_text": "ICICI Prudential Life Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "ICICI Prudential Life Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_004",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_004_wop",
+    "metadata": {
+      "chunk_text": "ICICI Prudential Life Insurance Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "ICICI Prudential Life Insurance",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_004",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_005_child_edu",
+    "metadata": {
+      "chunk_text": "Tata AIA Life Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "Tata AIA Life Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_005",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_005_ci",
+    "metadata": {
+      "chunk_text": "Tata AIA Life Insurance Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "Tata AIA Life Insurance",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_005",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_006_adb",
+    "metadata": {
+      "chunk_text": "Bajaj Allianz Life Insurance Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "Bajaj Allianz Life Insurance",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_006",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_006_child_edu",
+    "metadata": {
+      "chunk_text": "Bajaj Allianz Life Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "Bajaj Allianz Life Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_006",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_006_wop",
+    "metadata": {
+      "chunk_text": "Bajaj Allianz Life Insurance Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "Bajaj Allianz Life Insurance",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_006",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_007_ci",
+    "metadata": {
+      "chunk_text": "Max Life Insurance Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "Max Life Insurance",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 55,
+      "max_cover": 50000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_007",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_007_tpd",
+    "metadata": {
+      "chunk_text": "Max Life Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Max Life Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 50000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_007",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_008_child_edu",
+    "metadata": {
+      "chunk_text": "Kotak Mahindra Life Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "Kotak Mahindra Life Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_008",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_008_ci",
+    "metadata": {
+      "chunk_text": "Kotak Mahindra Life Insurance Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "Kotak Mahindra Life Insurance",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_008",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_009_adb",
+    "metadata": {
+      "chunk_text": "Aditya Birla Sun Life Insurance Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "Aditya Birla Sun Life Insurance",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 10000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_009",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_009_ci",
+    "metadata": {
+      "chunk_text": "Aditya Birla Sun Life Insurance Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "Aditya Birla Sun Life Insurance",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 55,
+      "max_cover": 10000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_009",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_009_tpd",
+    "metadata": {
+      "chunk_text": "Aditya Birla Sun Life Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Aditya Birla Sun Life Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 10000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_009",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_010_adb",
+    "metadata": {
+      "chunk_text": "PNB MetLife India Insurance Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "PNB MetLife India Insurance",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_010",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_010_tpd",
+    "metadata": {
+      "chunk_text": "PNB MetLife India Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "PNB MetLife India Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_010",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_011_child_edu",
+    "metadata": {
+      "chunk_text": "IndiaFirst Life Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "IndiaFirst Life Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_011",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_011_tpd",
+    "metadata": {
+      "chunk_text": "IndiaFirst Life Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "IndiaFirst Life Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_011",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_012_child_edu",
+    "metadata": {
+      "chunk_text": "Exide Life Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "Exide Life Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_012",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_012_ci",
+    "metadata": {
+      "chunk_text": "Exide Life Insurance Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "Exide Life Insurance",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_012",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_012_wop",
+    "metadata": {
+      "chunk_text": "Exide Life Insurance Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "Exide Life Insurance",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_012",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_013_tpd",
+    "metadata": {
+      "chunk_text": "Shriram Life Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Shriram Life Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_013",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_013_wop",
+    "metadata": {
+      "chunk_text": "Shriram Life Insurance Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "Shriram Life Insurance",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_013",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_014_adb",
+    "metadata": {
+      "chunk_text": "Sahara India Life Insurance Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "Sahara India Life Insurance",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_014",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_014_wop",
+    "metadata": {
+      "chunk_text": "Sahara India Life Insurance Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "Sahara India Life Insurance",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_014",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_015_tpd",
+    "metadata": {
+      "chunk_text": "Reliance Nippon Life Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Reliance Nippon Life Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_015",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_015_wop",
+    "metadata": {
+      "chunk_text": "Reliance Nippon Life Insurance Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "Reliance Nippon Life Insurance",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_015",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_016_adb",
+    "metadata": {
+      "chunk_text": "HDFC ERGO General Insurance Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "HDFC ERGO General Insurance",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_016",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_016_ci",
+    "metadata": {
+      "chunk_text": "HDFC ERGO General Insurance Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "HDFC ERGO General Insurance",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_016",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_016_wop",
+    "metadata": {
+      "chunk_text": "HDFC ERGO General Insurance Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "HDFC ERGO General Insurance",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_016",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_017_adb",
+    "metadata": {
+      "chunk_text": "ICICI Lombard General Insurance Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "ICICI Lombard General Insurance",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_017",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_017_child_edu",
+    "metadata": {
+      "chunk_text": "ICICI Lombard General Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "ICICI Lombard General Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_017",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_017_ci",
+    "metadata": {
+      "chunk_text": "ICICI Lombard General Insurance Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "ICICI Lombard General Insurance",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_017",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_018_child_edu",
+    "metadata": {
+      "chunk_text": "Tata AIG General Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "Tata AIG General Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_018",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_018_tpd",
+    "metadata": {
+      "chunk_text": "Tata AIG General Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Tata AIG General Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_018",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_019_child_edu",
+    "metadata": {
+      "chunk_text": "Bajaj Allianz General Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "Bajaj Allianz General Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_019",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_019_tpd",
+    "metadata": {
+      "chunk_text": "Bajaj Allianz General Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Bajaj Allianz General Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_019",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_020_adb",
+    "metadata": {
+      "chunk_text": "SBI General Insurance Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "SBI General Insurance",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_020",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_020_tpd",
+    "metadata": {
+      "chunk_text": "SBI General Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "SBI General Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_020",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_021_child_edu",
+    "metadata": {
+      "chunk_text": "Go Digit General Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "Go Digit General Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 55,
+      "max_cover": 10000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_021",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_021_tpd",
+    "metadata": {
+      "chunk_text": "Go Digit General Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Go Digit General Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 10000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_021",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_022_child_edu",
+    "metadata": {
+      "chunk_text": "Acko General Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "Acko General Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_022",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_022_tpd",
+    "metadata": {
+      "chunk_text": "Acko General Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Acko General Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_022",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_023_child_edu",
+    "metadata": {
+      "chunk_text": "Star Health & Allied Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "Star Health & Allied Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_023",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_023_ci",
+    "metadata": {
+      "chunk_text": "Star Health & Allied Insurance Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "Star Health & Allied Insurance",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_023",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_024_tpd",
+    "metadata": {
+      "chunk_text": "Care Health Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Care Health Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_024",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_024_wop",
+    "metadata": {
+      "chunk_text": "Care Health Insurance Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "Care Health Insurance",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_024",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_025_child_edu",
+    "metadata": {
+      "chunk_text": "Niva Bupa Health Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "Niva Bupa Health Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_025",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_025_ci",
+    "metadata": {
+      "chunk_text": "Niva Bupa Health Insurance Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "Niva Bupa Health Insurance",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_025",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_025_tpd",
+    "metadata": {
+      "chunk_text": "Niva Bupa Health Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Niva Bupa Health Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_025",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_026_tpd",
+    "metadata": {
+      "chunk_text": "Aditya Birla Health Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Aditya Birla Health Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_026",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_026_wop",
+    "metadata": {
+      "chunk_text": "Aditya Birla Health Insurance Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "Aditya Birla Health Insurance",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_026",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_027_tpd",
+    "metadata": {
+      "chunk_text": "ManipalCigna Health Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "ManipalCigna Health Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_027",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_027_wop",
+    "metadata": {
+      "chunk_text": "ManipalCigna Health Insurance Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "ManipalCigna Health Insurance",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_027",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_028_adb",
+    "metadata": {
+      "chunk_text": "Future Generali India Insurance Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "Future Generali India Insurance",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 100000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_028",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_028_ci",
+    "metadata": {
+      "chunk_text": "Future Generali India Insurance Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "Future Generali India Insurance",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 57,
+      "max_cover": 100000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_028",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_029_adb",
+    "metadata": {
+      "chunk_text": "IFFCO Tokio General Insurance Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "IFFCO Tokio General Insurance",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_029",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_029_child_edu",
+    "metadata": {
+      "chunk_text": "IFFCO Tokio General Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "IFFCO Tokio General Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_029",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_029_ci",
+    "metadata": {
+      "chunk_text": "IFFCO Tokio General Insurance Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "IFFCO Tokio General Insurance",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_029",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_030_ci",
+    "metadata": {
+      "chunk_text": "Reliance General Insurance Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "Reliance General Insurance",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_030",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_030_tpd",
+    "metadata": {
+      "chunk_text": "Reliance General Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Reliance General Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_030",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_030_wop",
+    "metadata": {
+      "chunk_text": "Reliance General Insurance Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "Reliance General Insurance",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_030",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_031_child_edu",
+    "metadata": {
+      "chunk_text": "Royal Sundaram General Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "Royal Sundaram General Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 50,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_031",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_031_ci",
+    "metadata": {
+      "chunk_text": "Royal Sundaram General Insurance Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "Royal Sundaram General Insurance",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 50,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_031",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_031_wop",
+    "metadata": {
+      "chunk_text": "Royal Sundaram General Insurance Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "Royal Sundaram General Insurance",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 50,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_031",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_032_adb",
+    "metadata": {
+      "chunk_text": "Cholamandalam MS General Insurance Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "Cholamandalam MS General Insurance",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 50,
+      "max_cover": 10000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_032",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_032_tpd",
+    "metadata": {
+      "chunk_text": "Cholamandalam MS General Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Cholamandalam MS General Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 50,
+      "max_cover": 10000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_032",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_032_wop",
+    "metadata": {
+      "chunk_text": "Cholamandalam MS General Insurance Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "Cholamandalam MS General Insurance",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 50,
+      "max_cover": 10000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_032",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_033_child_edu",
+    "metadata": {
+      "chunk_text": "Liberty General Insurance Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "Liberty General Insurance",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_033",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_033_tpd",
+    "metadata": {
+      "chunk_text": "Liberty General Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Liberty General Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_033",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_034_child_edu",
+    "metadata": {
+      "chunk_text": "National Insurance Co. Ltd. Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "National Insurance Co. Ltd.",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_034",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_034_wop",
+    "metadata": {
+      "chunk_text": "National Insurance Co. Ltd. Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "National Insurance Co. Ltd.",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_034",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_035_adb",
+    "metadata": {
+      "chunk_text": "The New India Assurance Co. Ltd. Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "The New India Assurance Co. Ltd.",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_035",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_035_wop",
+    "metadata": {
+      "chunk_text": "The New India Assurance Co. Ltd. Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "The New India Assurance Co. Ltd.",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_035",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_036_adb",
+    "metadata": {
+      "chunk_text": "The Oriental Insurance Co. Ltd. Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "The Oriental Insurance Co. Ltd.",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_036",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_036_tpd",
+    "metadata": {
+      "chunk_text": "The Oriental Insurance Co. Ltd. Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "The Oriental Insurance Co. Ltd.",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_036",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_036_wop",
+    "metadata": {
+      "chunk_text": "The Oriental Insurance Co. Ltd. Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "The Oriental Insurance Co. Ltd.",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_036",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_037_ci",
+    "metadata": {
+      "chunk_text": "United India Insurance Co. Ltd. Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "United India Insurance Co. Ltd.",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_037",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_037_tpd",
+    "metadata": {
+      "chunk_text": "United India Insurance Co. Ltd. Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "United India Insurance Co. Ltd.",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_037",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_038_child_edu",
+    "metadata": {
+      "chunk_text": "Allianz Child Education Rider Add-on Rider: Specific financial support meant for children's higher education fees and school expenses.",
+      "company": "Allianz",
+      "extra_premium_pct": 0.12,
+      "formula_type": "income_multiplier",
+      "max_age": 50,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 3,
+      "plan_id": "COMP_038",
+      "template": "Dedicated ₹{val} buffer for child's education.",
+      "title": "Child Education Rider"
+    }
+  },
+  {
+    "id": "COMP_038_ci",
+    "metadata": {
+      "chunk_text": "Allianz Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "Allianz",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 50,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_038",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_038_tpd",
+    "metadata": {
+      "chunk_text": "Allianz Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Allianz",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 50,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_038",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_039_tpd",
+    "metadata": {
+      "chunk_text": "AXA Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "AXA",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_039",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_039_wop",
+    "metadata": {
+      "chunk_text": "AXA Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "AXA",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_039",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_040_adb",
+    "metadata": {
+      "chunk_text": "MetLife Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "MetLife",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 50,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_040",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_040_wop",
+    "metadata": {
+      "chunk_text": "MetLife Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "MetLife",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 50,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_040",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_041_adb",
+    "metadata": {
+      "chunk_text": "Cigna Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "Cigna",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_041",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_041_ci",
+    "metadata": {
+      "chunk_text": "Cigna Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "Cigna",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_041",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_041_wop",
+    "metadata": {
+      "chunk_text": "Cigna Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "Cigna",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_041",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_042_tpd",
+    "metadata": {
+      "chunk_text": "Generali Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Generali",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 50,
+      "max_cover": 20000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_042",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_042_wop",
+    "metadata": {
+      "chunk_text": "Generali Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "Generali",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 50,
+      "max_cover": 20000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_042",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_043_adb",
+    "metadata": {
+      "chunk_text": "Sumitomo Mitsui Insurance Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "Sumitomo Mitsui Insurance",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 50000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_043",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_043_tpd",
+    "metadata": {
+      "chunk_text": "Sumitomo Mitsui Insurance Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "Sumitomo Mitsui Insurance",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 50000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_043",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_043_wop",
+    "metadata": {
+      "chunk_text": "Sumitomo Mitsui Insurance Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "Sumitomo Mitsui Insurance",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 50000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_043",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_044_adb",
+    "metadata": {
+      "chunk_text": "AIG Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "AIG",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_044",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_044_tpd",
+    "metadata": {
+      "chunk_text": "AIG Total Permanent Disability Add-on Rider: Provides a lump sum if an accident leads to total permanent disability like loss of limbs or sight.",
+      "company": "AIG",
+      "extra_premium_pct": 0.18,
+      "formula_type": "percentage_of_cover",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.5,
+      "plan_id": "COMP_044",
+      "template": "₹{val} payout if disabled.",
+      "title": "Total Permanent Disability"
+    }
+  },
+  {
+    "id": "COMP_045_adb",
+    "metadata": {
+      "chunk_text": "Liberty Mutual Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "Liberty Mutual",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_045",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  },
+  {
+    "id": "COMP_045_ci",
+    "metadata": {
+      "chunk_text": "Liberty Mutual Critical Illness Rider Add-on Rider: Lump sum cash payout upon first diagnosis of Cancer, Heart Attack, or Kidney Failure.",
+      "company": "Liberty Mutual",
+      "extra_premium_pct": 0.25,
+      "formula_type": "fixed_list",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_045",
+      "template": "Lump sum payout for 36 critical illnesses.",
+      "title": "Critical Illness Rider"
+    }
+  },
+  {
+    "id": "COMP_045_wop",
+    "metadata": {
+      "chunk_text": "Liberty Mutual Waiver of Premium Add-on Rider: All future premiums are waived if the insured person is diagnosed with a critical illness or disability.",
+      "company": "Liberty Mutual",
+      "extra_premium_pct": 0.1,
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_045",
+      "template": "Policy continues for free if disabled.",
+      "title": "Waiver of Premium"
+    }
+  },
+  {
+    "id": "COMP_001_adb",
+    "metadata": {
+      "chunk_text": "Life Insurance Corporation of India (LIC) Accidental Death Benefit Add-on Rider: Extra sum assured paid to nominees if death is caused by an accident (road, rail, or air).",
+      "company": "Life Insurance Corporation of India (LIC)",
+      "extra_premium_pct": 0.15,
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 1,
+      "plan_id": "COMP_001",
+      "template": "Additional ₹{val} paid on accidental death.",
+      "title": "Accidental Death Benefit"
+    }
+  }
+]

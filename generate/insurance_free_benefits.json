@@ -1,0 +1,2756 @@
+[
+  {
+    "id": "COMP_001_insta_claim",
+    "metadata": {
+      "chunk_text": "Life Insurance Corporation of India (LIC) Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Life Insurance Corporation of India (LIC)",
+      "formula_type": "fixed_amt",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_001",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_001_second_opinion",
+    "metadata": {
+      "chunk_text": "Life Insurance Corporation of India (LIC) Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "Life Insurance Corporation of India (LIC)",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_001",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_002_health",
+    "metadata": {
+      "chunk_text": "SBI Life Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "SBI Life Insurance",
+      "formula_type": "health_tier",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_002",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_002_insta_claim",
+    "metadata": {
+      "chunk_text": "SBI Life Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "SBI Life Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_002",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_002_premium_holiday",
+    "metadata": {
+      "chunk_text": "SBI Life Insurance Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "SBI Life Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_002",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_003_grief_support",
+    "metadata": {
+      "chunk_text": "HDFC Life Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "HDFC Life Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_003",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_003_health",
+    "metadata": {
+      "chunk_text": "HDFC Life Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "HDFC Life Insurance",
+      "formula_type": "health_tier",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_003",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_003_insta_claim",
+    "metadata": {
+      "chunk_text": "HDFC Life Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "HDFC Life Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_003",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_003_second_opinion",
+    "metadata": {
+      "chunk_text": "HDFC Life Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "HDFC Life Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_003",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_004_grief_support",
+    "metadata": {
+      "chunk_text": "ICICI Prudential Life Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "ICICI Prudential Life Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_004",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_004_second_opinion",
+    "metadata": {
+      "chunk_text": "ICICI Prudential Life Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "ICICI Prudential Life Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_004",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_004_terminal",
+    "metadata": {
+      "chunk_text": "ICICI Prudential Life Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "ICICI Prudential Life Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_004",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_005_health",
+    "metadata": {
+      "chunk_text": "Tata AIA Life Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Tata AIA Life Insurance",
+      "formula_type": "health_tier",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_005",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_005_insta_claim",
+    "metadata": {
+      "chunk_text": "Tata AIA Life Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Tata AIA Life Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_005",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_005_second_opinion",
+    "metadata": {
+      "chunk_text": "Tata AIA Life Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "Tata AIA Life Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_005",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_006_insta_claim",
+    "metadata": {
+      "chunk_text": "Bajaj Allianz Life Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Bajaj Allianz Life Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_006",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_006_premium_holiday",
+    "metadata": {
+      "chunk_text": "Bajaj Allianz Life Insurance Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "Bajaj Allianz Life Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_006",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_006_second_opinion",
+    "metadata": {
+      "chunk_text": "Bajaj Allianz Life Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "Bajaj Allianz Life Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_006",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_006_terminal",
+    "metadata": {
+      "chunk_text": "Bajaj Allianz Life Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "Bajaj Allianz Life Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_006",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_007_health",
+    "metadata": {
+      "chunk_text": "Max Life Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Max Life Insurance",
+      "formula_type": "health_tier",
+      "max_age": 55,
+      "max_cover": 50000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_007",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_007_insta_claim",
+    "metadata": {
+      "chunk_text": "Max Life Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Max Life Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 55,
+      "max_cover": 50000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_007",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_007_premium_holiday",
+    "metadata": {
+      "chunk_text": "Max Life Insurance Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "Max Life Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 50000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_007",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_007_second_opinion",
+    "metadata": {
+      "chunk_text": "Max Life Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "Max Life Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 50000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_007",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_008_grief_support",
+    "metadata": {
+      "chunk_text": "Kotak Mahindra Life Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Kotak Mahindra Life Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_008",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_008_insta_claim",
+    "metadata": {
+      "chunk_text": "Kotak Mahindra Life Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Kotak Mahindra Life Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_008",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_008_premium_holiday",
+    "metadata": {
+      "chunk_text": "Kotak Mahindra Life Insurance Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "Kotak Mahindra Life Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_008",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_008_terminal",
+    "metadata": {
+      "chunk_text": "Kotak Mahindra Life Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "Kotak Mahindra Life Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_008",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_009_grief_support",
+    "metadata": {
+      "chunk_text": "Aditya Birla Sun Life Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Aditya Birla Sun Life Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 10000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_009",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_009_health",
+    "metadata": {
+      "chunk_text": "Aditya Birla Sun Life Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Aditya Birla Sun Life Insurance",
+      "formula_type": "health_tier",
+      "max_age": 55,
+      "max_cover": 10000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_009",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_009_insta_claim",
+    "metadata": {
+      "chunk_text": "Aditya Birla Sun Life Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Aditya Birla Sun Life Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 55,
+      "max_cover": 10000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_009",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_009_premium_holiday",
+    "metadata": {
+      "chunk_text": "Aditya Birla Sun Life Insurance Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "Aditya Birla Sun Life Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 10000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_009",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_010_grief_support",
+    "metadata": {
+      "chunk_text": "PNB MetLife India Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "PNB MetLife India Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_010",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_010_health",
+    "metadata": {
+      "chunk_text": "PNB MetLife India Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "PNB MetLife India Insurance",
+      "formula_type": "health_tier",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_010",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_010_second_opinion",
+    "metadata": {
+      "chunk_text": "PNB MetLife India Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "PNB MetLife India Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_010",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_011_health",
+    "metadata": {
+      "chunk_text": "IndiaFirst Life Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "IndiaFirst Life Insurance",
+      "formula_type": "health_tier",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_011",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_011_second_opinion",
+    "metadata": {
+      "chunk_text": "IndiaFirst Life Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "IndiaFirst Life Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_011",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_011_terminal",
+    "metadata": {
+      "chunk_text": "IndiaFirst Life Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "IndiaFirst Life Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_011",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_012_health",
+    "metadata": {
+      "chunk_text": "Exide Life Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Exide Life Insurance",
+      "formula_type": "health_tier",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_012",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_012_premium_holiday",
+    "metadata": {
+      "chunk_text": "Exide Life Insurance Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "Exide Life Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_012",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_012_second_opinion",
+    "metadata": {
+      "chunk_text": "Exide Life Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "Exide Life Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_012",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_012_terminal",
+    "metadata": {
+      "chunk_text": "Exide Life Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "Exide Life Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_012",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_013_health",
+    "metadata": {
+      "chunk_text": "Shriram Life Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Shriram Life Insurance",
+      "formula_type": "health_tier",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_013",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_013_insta_claim",
+    "metadata": {
+      "chunk_text": "Shriram Life Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Shriram Life Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_013",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_013_second_opinion",
+    "metadata": {
+      "chunk_text": "Shriram Life Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "Shriram Life Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_013",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_013_terminal",
+    "metadata": {
+      "chunk_text": "Shriram Life Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "Shriram Life Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_013",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_014_grief_support",
+    "metadata": {
+      "chunk_text": "Sahara India Life Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Sahara India Life Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_014",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_014_health",
+    "metadata": {
+      "chunk_text": "Sahara India Life Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Sahara India Life Insurance",
+      "formula_type": "health_tier",
+      "max_age": 57,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_014",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_014_second_opinion",
+    "metadata": {
+      "chunk_text": "Sahara India Life Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "Sahara India Life Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_014",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_014_terminal",
+    "metadata": {
+      "chunk_text": "Sahara India Life Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "Sahara India Life Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_014",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_015_grief_support",
+    "metadata": {
+      "chunk_text": "Reliance Nippon Life Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Reliance Nippon Life Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_015",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_015_insta_claim",
+    "metadata": {
+      "chunk_text": "Reliance Nippon Life Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Reliance Nippon Life Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_015",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_015_second_opinion",
+    "metadata": {
+      "chunk_text": "Reliance Nippon Life Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "Reliance Nippon Life Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_015",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_015_terminal",
+    "metadata": {
+      "chunk_text": "Reliance Nippon Life Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "Reliance Nippon Life Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_015",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_016_grief_support",
+    "metadata": {
+      "chunk_text": "HDFC ERGO General Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "HDFC ERGO General Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_016",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_016_insta_claim",
+    "metadata": {
+      "chunk_text": "HDFC ERGO General Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "HDFC ERGO General Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_016",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_016_premium_holiday",
+    "metadata": {
+      "chunk_text": "HDFC ERGO General Insurance Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "HDFC ERGO General Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_016",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_017_insta_claim",
+    "metadata": {
+      "chunk_text": "ICICI Lombard General Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "ICICI Lombard General Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_017",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_017_second_opinion",
+    "metadata": {
+      "chunk_text": "ICICI Lombard General Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "ICICI Lombard General Insurance",
+      "formula_type": "static",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_017",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_017_terminal",
+    "metadata": {
+      "chunk_text": "ICICI Lombard General Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "ICICI Lombard General Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_017",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_018_health",
+    "metadata": {
+      "chunk_text": "Tata AIG General Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Tata AIG General Insurance",
+      "formula_type": "health_tier",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_018",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_018_insta_claim",
+    "metadata": {
+      "chunk_text": "Tata AIG General Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Tata AIG General Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_018",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_018_premium_holiday",
+    "metadata": {
+      "chunk_text": "Tata AIG General Insurance Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "Tata AIG General Insurance",
+      "formula_type": "static",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_018",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_019_grief_support",
+    "metadata": {
+      "chunk_text": "Bajaj Allianz General Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Bajaj Allianz General Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_019",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_019_premium_holiday",
+    "metadata": {
+      "chunk_text": "Bajaj Allianz General Insurance Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "Bajaj Allianz General Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_019",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_019_terminal",
+    "metadata": {
+      "chunk_text": "Bajaj Allianz General Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "Bajaj Allianz General Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_019",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_020_grief_support",
+    "metadata": {
+      "chunk_text": "SBI General Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "SBI General Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_020",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_020_insta_claim",
+    "metadata": {
+      "chunk_text": "SBI General Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "SBI General Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_020",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_020_terminal",
+    "metadata": {
+      "chunk_text": "SBI General Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "SBI General Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_020",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_021_grief_support",
+    "metadata": {
+      "chunk_text": "Go Digit General Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Go Digit General Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 10000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_021",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_021_health",
+    "metadata": {
+      "chunk_text": "Go Digit General Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Go Digit General Insurance",
+      "formula_type": "health_tier",
+      "max_age": 55,
+      "max_cover": 10000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_021",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_021_insta_claim",
+    "metadata": {
+      "chunk_text": "Go Digit General Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Go Digit General Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 55,
+      "max_cover": 10000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_021",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_022_grief_support",
+    "metadata": {
+      "chunk_text": "Acko General Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Acko General Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_022",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_022_health",
+    "metadata": {
+      "chunk_text": "Acko General Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Acko General Insurance",
+      "formula_type": "health_tier",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_022",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_022_insta_claim",
+    "metadata": {
+      "chunk_text": "Acko General Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Acko General Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_022",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_022_second_opinion",
+    "metadata": {
+      "chunk_text": "Acko General Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "Acko General Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_022",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_023_health",
+    "metadata": {
+      "chunk_text": "Star Health & Allied Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Star Health & Allied Insurance",
+      "formula_type": "health_tier",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_023",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_023_insta_claim",
+    "metadata": {
+      "chunk_text": "Star Health & Allied Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Star Health & Allied Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_023",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_023_second_opinion",
+    "metadata": {
+      "chunk_text": "Star Health & Allied Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "Star Health & Allied Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_023",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_023_terminal",
+    "metadata": {
+      "chunk_text": "Star Health & Allied Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "Star Health & Allied Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_023",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_024_grief_support",
+    "metadata": {
+      "chunk_text": "Care Health Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Care Health Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_024",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_024_health",
+    "metadata": {
+      "chunk_text": "Care Health Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Care Health Insurance",
+      "formula_type": "health_tier",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_024",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_024_insta_claim",
+    "metadata": {
+      "chunk_text": "Care Health Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Care Health Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_024",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_024_terminal",
+    "metadata": {
+      "chunk_text": "Care Health Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "Care Health Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_024",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_025_grief_support",
+    "metadata": {
+      "chunk_text": "Niva Bupa Health Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Niva Bupa Health Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_025",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_025_health",
+    "metadata": {
+      "chunk_text": "Niva Bupa Health Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Niva Bupa Health Insurance",
+      "formula_type": "health_tier",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_025",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_025_premium_holiday",
+    "metadata": {
+      "chunk_text": "Niva Bupa Health Insurance Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "Niva Bupa Health Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_025",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_026_grief_support",
+    "metadata": {
+      "chunk_text": "Aditya Birla Health Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Aditya Birla Health Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_026",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_026_insta_claim",
+    "metadata": {
+      "chunk_text": "Aditya Birla Health Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Aditya Birla Health Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_026",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_026_second_opinion",
+    "metadata": {
+      "chunk_text": "Aditya Birla Health Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "Aditya Birla Health Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_026",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_027_insta_claim",
+    "metadata": {
+      "chunk_text": "ManipalCigna Health Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "ManipalCigna Health Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 57,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_027",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_027_premium_holiday",
+    "metadata": {
+      "chunk_text": "ManipalCigna Health Insurance Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "ManipalCigna Health Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_027",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_027_terminal",
+    "metadata": {
+      "chunk_text": "ManipalCigna Health Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "ManipalCigna Health Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_027",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_028_premium_holiday",
+    "metadata": {
+      "chunk_text": "Future Generali India Insurance Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "Future Generali India Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 100000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_028",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_028_second_opinion",
+    "metadata": {
+      "chunk_text": "Future Generali India Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "Future Generali India Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 100000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_028",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_028_terminal",
+    "metadata": {
+      "chunk_text": "Future Generali India Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "Future Generali India Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 100000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_028",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_029_health",
+    "metadata": {
+      "chunk_text": "IFFCO Tokio General Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "IFFCO Tokio General Insurance",
+      "formula_type": "health_tier",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_029",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_029_insta_claim",
+    "metadata": {
+      "chunk_text": "IFFCO Tokio General Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "IFFCO Tokio General Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_029",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_029_premium_holiday",
+    "metadata": {
+      "chunk_text": "IFFCO Tokio General Insurance Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "IFFCO Tokio General Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_029",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_030_grief_support",
+    "metadata": {
+      "chunk_text": "Reliance General Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Reliance General Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_030",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_030_insta_claim",
+    "metadata": {
+      "chunk_text": "Reliance General Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Reliance General Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_030",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_030_premium_holiday",
+    "metadata": {
+      "chunk_text": "Reliance General Insurance Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "Reliance General Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_030",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_030_second_opinion",
+    "metadata": {
+      "chunk_text": "Reliance General Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "Reliance General Insurance",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_030",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_031_grief_support",
+    "metadata": {
+      "chunk_text": "Royal Sundaram General Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Royal Sundaram General Insurance",
+      "formula_type": "static",
+      "max_age": 50,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_031",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_031_health",
+    "metadata": {
+      "chunk_text": "Royal Sundaram General Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Royal Sundaram General Insurance",
+      "formula_type": "health_tier",
+      "max_age": 50,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_031",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_031_terminal",
+    "metadata": {
+      "chunk_text": "Royal Sundaram General Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "Royal Sundaram General Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 50,
+      "max_cover": 100000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_031",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_032_health",
+    "metadata": {
+      "chunk_text": "Cholamandalam MS General Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Cholamandalam MS General Insurance",
+      "formula_type": "health_tier",
+      "max_age": 50,
+      "max_cover": 10000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_032",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_032_insta_claim",
+    "metadata": {
+      "chunk_text": "Cholamandalam MS General Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Cholamandalam MS General Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 50,
+      "max_cover": 10000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_032",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_032_terminal",
+    "metadata": {
+      "chunk_text": "Cholamandalam MS General Insurance Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "Cholamandalam MS General Insurance",
+      "formula_type": "percentage_of_cover",
+      "max_age": 50,
+      "max_cover": 10000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_032",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_033_grief_support",
+    "metadata": {
+      "chunk_text": "Liberty General Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Liberty General Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_033",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_033_insta_claim",
+    "metadata": {
+      "chunk_text": "Liberty General Insurance Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Liberty General Insurance",
+      "formula_type": "fixed_amt",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_033",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_033_second_opinion",
+    "metadata": {
+      "chunk_text": "Liberty General Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "Liberty General Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_033",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_034_grief_support",
+    "metadata": {
+      "chunk_text": "National Insurance Co. Ltd. Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "National Insurance Co. Ltd.",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_034",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_034_insta_claim",
+    "metadata": {
+      "chunk_text": "National Insurance Co. Ltd. Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "National Insurance Co. Ltd.",
+      "formula_type": "fixed_amt",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_034",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_034_terminal",
+    "metadata": {
+      "chunk_text": "National Insurance Co. Ltd. Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "National Insurance Co. Ltd.",
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 100000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_034",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_035_grief_support",
+    "metadata": {
+      "chunk_text": "The New India Assurance Co. Ltd. Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "The New India Assurance Co. Ltd.",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_035",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_035_insta_claim",
+    "metadata": {
+      "chunk_text": "The New India Assurance Co. Ltd. Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "The New India Assurance Co. Ltd.",
+      "formula_type": "fixed_amt",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_035",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_035_terminal",
+    "metadata": {
+      "chunk_text": "The New India Assurance Co. Ltd. Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "The New India Assurance Co. Ltd.",
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_035",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_036_grief_support",
+    "metadata": {
+      "chunk_text": "The Oriental Insurance Co. Ltd. Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "The Oriental Insurance Co. Ltd.",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_036",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_036_health",
+    "metadata": {
+      "chunk_text": "The Oriental Insurance Co. Ltd. Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "The Oriental Insurance Co. Ltd.",
+      "formula_type": "health_tier",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_036",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_036_second_opinion",
+    "metadata": {
+      "chunk_text": "The Oriental Insurance Co. Ltd. Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "The Oriental Insurance Co. Ltd.",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_036",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_037_grief_support",
+    "metadata": {
+      "chunk_text": "United India Insurance Co. Ltd. Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "United India Insurance Co. Ltd.",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_037",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_037_health",
+    "metadata": {
+      "chunk_text": "United India Insurance Co. Ltd. Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "United India Insurance Co. Ltd.",
+      "formula_type": "health_tier",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_037",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_037_insta_claim",
+    "metadata": {
+      "chunk_text": "United India Insurance Co. Ltd. Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "United India Insurance Co. Ltd.",
+      "formula_type": "fixed_amt",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_037",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_037_premium_holiday",
+    "metadata": {
+      "chunk_text": "United India Insurance Co. Ltd. Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "United India Insurance Co. Ltd.",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_037",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_038_health",
+    "metadata": {
+      "chunk_text": "Allianz Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Allianz",
+      "formula_type": "health_tier",
+      "max_age": 50,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_038",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_038_insta_claim",
+    "metadata": {
+      "chunk_text": "Allianz Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Allianz",
+      "formula_type": "fixed_amt",
+      "max_age": 50,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_038",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_038_premium_holiday",
+    "metadata": {
+      "chunk_text": "Allianz Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "Allianz",
+      "formula_type": "static",
+      "max_age": 50,
+      "max_cover": 100000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_038",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_039_health",
+    "metadata": {
+      "chunk_text": "AXA Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "AXA",
+      "formula_type": "health_tier",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_039",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_039_premium_holiday",
+    "metadata": {
+      "chunk_text": "AXA Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "AXA",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_039",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_039_terminal",
+    "metadata": {
+      "chunk_text": "AXA Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "AXA",
+      "formula_type": "percentage_of_cover",
+      "max_age": 57,
+      "max_cover": 10000000,
+      "max_cover_age": 90,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_039",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_040_health",
+    "metadata": {
+      "chunk_text": "MetLife Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "MetLife",
+      "formula_type": "health_tier",
+      "max_age": 50,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_040",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_040_insta_claim",
+    "metadata": {
+      "chunk_text": "MetLife Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "MetLife",
+      "formula_type": "fixed_amt",
+      "max_age": 50,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_040",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_040_premium_holiday",
+    "metadata": {
+      "chunk_text": "MetLife Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "MetLife",
+      "formula_type": "static",
+      "max_age": 50,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_040",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_040_second_opinion",
+    "metadata": {
+      "chunk_text": "MetLife Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "MetLife",
+      "formula_type": "static",
+      "max_age": 50,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_040",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_041_grief_support",
+    "metadata": {
+      "chunk_text": "Cigna Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Cigna",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_041",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_041_insta_claim",
+    "metadata": {
+      "chunk_text": "Cigna Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Cigna",
+      "formula_type": "fixed_amt",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_041",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_041_second_opinion",
+    "metadata": {
+      "chunk_text": "Cigna Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "Cigna",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_041",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_042_grief_support",
+    "metadata": {
+      "chunk_text": "Generali Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Generali",
+      "formula_type": "static",
+      "max_age": 50,
+      "max_cover": 20000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_042",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_042_premium_holiday",
+    "metadata": {
+      "chunk_text": "Generali Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "Generali",
+      "formula_type": "static",
+      "max_age": 50,
+      "max_cover": 20000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_042",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_042_terminal",
+    "metadata": {
+      "chunk_text": "Generali Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "Generali",
+      "formula_type": "percentage_of_cover",
+      "max_age": 50,
+      "max_cover": 20000000,
+      "max_cover_age": 80,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_042",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_043_grief_support",
+    "metadata": {
+      "chunk_text": "Sumitomo Mitsui Insurance Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Sumitomo Mitsui Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 50000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_043",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_043_health",
+    "metadata": {
+      "chunk_text": "Sumitomo Mitsui Insurance Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Sumitomo Mitsui Insurance",
+      "formula_type": "health_tier",
+      "max_age": 55,
+      "max_cover": 50000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_043",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_043_premium_holiday",
+    "metadata": {
+      "chunk_text": "Sumitomo Mitsui Insurance Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "Sumitomo Mitsui Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 50000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_043",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_043_second_opinion",
+    "metadata": {
+      "chunk_text": "Sumitomo Mitsui Insurance Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "Sumitomo Mitsui Insurance",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 50000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_043",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_044_grief_support",
+    "metadata": {
+      "chunk_text": "AIG Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "AIG",
+      "formula_type": "static",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_044",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  },
+  {
+    "id": "COMP_044_health",
+    "metadata": {
+      "chunk_text": "AIG Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "AIG",
+      "formula_type": "health_tier",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_044",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_044_insta_claim",
+    "metadata": {
+      "chunk_text": "AIG Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "AIG",
+      "formula_type": "fixed_amt",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_044",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_044_second_opinion",
+    "metadata": {
+      "chunk_text": "AIG Global Medical Second Opinion: Expert medical opinions from top global doctors for complex surgery or critical illness diagnosis.",
+      "company": "AIG",
+      "formula_type": "static",
+      "max_age": 50,
+      "max_cover": 50000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_044",
+      "template": "Access to international specialists.",
+      "title": "Global Medical Second Opinion"
+    }
+  },
+  {
+    "id": "COMP_045_health",
+    "metadata": {
+      "chunk_text": "Liberty Mutual Free Health Benefits: Includes free annual health checkups, dental cleanings, and heart health screenings.",
+      "company": "Liberty Mutual",
+      "formula_type": "health_tier",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_045",
+      "template": "Complimentary wellness up to ₹{val}/yr.",
+      "title": "Free Health Benefits"
+    }
+  },
+  {
+    "id": "COMP_045_insta_claim",
+    "metadata": {
+      "chunk_text": "Liberty Mutual Insta-Claim Support: Provides urgent cash relief to families for funeral costs and immediate needs post-demise.",
+      "company": "Liberty Mutual",
+      "formula_type": "fixed_amt",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 200000,
+      "plan_id": "COMP_045",
+      "template": "Immediate ₹{val} payout within 48 hours.",
+      "title": "Insta-Claim Support"
+    }
+  },
+  {
+    "id": "COMP_045_premium_holiday",
+    "metadata": {
+      "chunk_text": "Liberty Mutual Premium Holiday: Stop paying premiums for up to 12 months during job loss or financial crisis without losing cover.",
+      "company": "Liberty Mutual",
+      "formula_type": "static",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_045",
+      "template": "Skip premiums for 1 year.",
+      "title": "Premium Holiday"
+    }
+  },
+  {
+    "id": "COMP_045_terminal",
+    "metadata": {
+      "chunk_text": "Liberty Mutual Terminal Illness Early Payout: Get 25% of your life cover early if diagnosed with a terminal or incurable illness.",
+      "company": "Liberty Mutual",
+      "formula_type": "percentage_of_cover",
+      "max_age": 55,
+      "max_cover": 20000000,
+      "max_cover_age": 85,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0.25,
+      "plan_id": "COMP_045",
+      "template": "Accelerated payout of ₹{val} upon terminal diagnosis.",
+      "title": "Terminal Illness Early Payout"
+    }
+  },
+  {
+    "id": "COMP_001_grief_support",
+    "metadata": {
+      "chunk_text": "Life Insurance Corporation of India (LIC) Grief Counseling Support: Mental health and emotional support sessions for family members to cope with loss.",
+      "company": "Life Insurance Corporation of India (LIC)",
+      "formula_type": "static",
+      "max_age": 57,
+      "max_cover": 20000000,
+      "max_cover_age": 95,
+      "min_age": 18,
+      "min_cover": 5000000,
+      "min_cover_age": 60,
+      "multiplier": 0,
+      "plan_id": "COMP_001",
+      "template": "Professional grief counseling for nominees.",
+      "title": "Grief Counseling Support"
+    }
+  }
+]
