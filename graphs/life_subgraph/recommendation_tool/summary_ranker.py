@@ -70,3 +70,4 @@ def summary_ranker_node(state: TermLifeState):
         "semantic_data": None,
         "raw_premiums": None
     }
+# ranking logic and score aggregation
