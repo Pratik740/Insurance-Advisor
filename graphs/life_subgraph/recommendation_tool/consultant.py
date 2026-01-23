@@ -97,3 +97,4 @@ def consultant_reasoner_node(state: TermLifeState):
         "recommendation_reasoning": response.text,
         "messages": [AIMessage(content=history_summary)] 
     }
+# reranking and top-k handling
