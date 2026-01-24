@@ -76,3 +76,4 @@ def merger_node(state: TermLifeState):
         "requested_premiums": None,
         "action_type": None
     }
+# final result formatting and message handling
