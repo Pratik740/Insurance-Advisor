@@ -11,3 +11,5 @@ def load_companies():
         return json.load(f)
 
 COMPANIES = load_companies()
+
+# load_companies edge cases
