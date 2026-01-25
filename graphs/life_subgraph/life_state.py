@@ -57,3 +57,4 @@ def life_intake_config():
             "IMPORTANT: Your response must be a single, valid JSON object. Do not include any introductory text or markdown formatting outside the JSON."
         )
     )
+# TermLifeState alignment
