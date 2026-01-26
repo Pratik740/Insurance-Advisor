@@ -115,3 +115,5 @@ def populate_from_json(file_path):
 populate_from_json('../data/term_life_companies.json')
 stats = dense_index.describe_index_stats()
 print(stats)
+
+# vector store population edge cases
