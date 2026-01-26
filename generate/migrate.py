@@ -50,3 +50,4 @@ def migrate_json_to_postgres():
 
 if __name__ == "__main__":
     migrate_json_to_postgres()
+# migration edge cases
