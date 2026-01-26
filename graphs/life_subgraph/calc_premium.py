@@ -49,3 +49,4 @@ def calculate_premium(
     )
 
     return round(premium/12)
+# calc_premium edge cases
