@@ -13,3 +13,5 @@ services:
 
 volumes:
   insuranceadvisor_pgdata:
+
+# Postgres config
