@@ -131,3 +131,5 @@ if __name__ == "__main__":
         json.dump(companies, f, indent=2)
 
     print(f"Generated {len(companies)} companies with exactly ONE term life plan each")
+
+# life endpoint edge cases
