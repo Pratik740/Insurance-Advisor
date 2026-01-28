@@ -172,3 +172,5 @@ def policy_expert_node(state: TermLifeState):
 # if __name__ == "__main__":    
 #     test_policy_expert()
 # hybrid search and response formatting
+
+# policy expert response formatting
