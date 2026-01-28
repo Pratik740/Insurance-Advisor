@@ -174,3 +174,5 @@ life_builder.add_edge("merger_node", END)
 
 life_subgraph = life_builder.compile()
 # smarter routing and exhaustion rules
+
+# supervisor and merger edge cases
