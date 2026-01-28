@@ -97,3 +97,5 @@ def check_intake_status(state: TermLifeState):
     
     return "intake_agent"
 # intake status and state updates
+
+# intake agent response formatting
