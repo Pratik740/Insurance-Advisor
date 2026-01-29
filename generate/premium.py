@@ -76,3 +76,5 @@ def generate_addons(life_cover, cover_till_age, plan_id):
 
     
 # premium calculation edge cases
+
+# addon generation bounds
