@@ -114,3 +114,5 @@ async def get_plan_benefits(payload: AddonRequest):
         "benefits": dynamic_addons
     }       
 # eligibility and premium edge cases
+
+# premium endpoint validation
