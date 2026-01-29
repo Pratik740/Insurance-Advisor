@@ -161,3 +161,5 @@ def semantic_engine_node(state: TermLifeState):
 #         for chunk in plan['matched_chunks'][:4]: # Show first 4 riders
 #             print(f"  - {chunk['title']}")
 # semantic retrieval edge cases
+
+# top-k retrieval tuning
