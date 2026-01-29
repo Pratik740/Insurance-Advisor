@@ -13,3 +13,5 @@ def get_checkpointer() -> PostgresSaver:
 # FOR LTM, WE'LL USE TWO DB'S
 # 1. POSTGES   2. PINECONE 
 # STM: PostgresSaver per thread_id
+
+# checkpointer connection handling
