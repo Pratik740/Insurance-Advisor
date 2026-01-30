@@ -99,3 +99,5 @@ def check_intake_status(state: TermLifeState):
 # intake status and state updates
 
 # intake agent response formatting
+
+# profile extraction fallback
