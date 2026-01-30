@@ -98,3 +98,5 @@ def consultant_reasoner_node(state: TermLifeState):
         "messages": [AIMessage(content=history_summary)] 
     }
 # reranking and top-k handling
+
+# top-k rerank limit
