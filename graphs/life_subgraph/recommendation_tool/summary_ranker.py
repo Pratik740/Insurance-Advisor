@@ -71,3 +71,5 @@ def summary_ranker_node(state: TermLifeState):
         "raw_premiums": None
     }
 # ranking logic and score aggregation
+
+# score aggregation weights
