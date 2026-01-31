@@ -79,3 +79,5 @@ def merger_node(state: TermLifeState):
 # final result formatting and message handling
 
 # merger response formatting
+
+# empty context handling
