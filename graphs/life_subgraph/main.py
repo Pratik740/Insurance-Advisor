@@ -176,3 +176,5 @@ life_subgraph = life_builder.compile()
 # smarter routing and exhaustion rules
 
 # supervisor and merger edge cases
+
+# supervisor tool exhaustion check
