@@ -66,3 +66,5 @@ def master_config():
 
 
 # state schema alignment
+
+# trim_messages boundary
