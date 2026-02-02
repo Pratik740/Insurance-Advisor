@@ -45,3 +45,5 @@ for ns in NAMESPACES:
     dump_namespace_to_json(ns)
 
 # view layer edge cases
+
+# namespace dump edge case
