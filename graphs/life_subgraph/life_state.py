@@ -58,3 +58,5 @@ def life_intake_config():
         )
     )
 # TermLifeState alignment
+
+# recommendation_reasoning default
