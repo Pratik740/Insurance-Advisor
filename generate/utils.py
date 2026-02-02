@@ -13,3 +13,5 @@ def load_companies():
 COMPANIES = load_companies()
 
 # load_companies edge cases
+
+# BASE_DIR path handling
