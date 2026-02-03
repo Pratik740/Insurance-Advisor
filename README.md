@@ -133,6 +133,7 @@ This clear separation allows the system to remain **stateful and reliable**, whi
 
 ## Project Structure
 
+```plaintext
 insurance_advisor/
 ├── core/
 │   ├── persistence.py        # Postgres checkpointer & HITL setup
@@ -156,6 +157,7 @@ insurance_advisor/
 │   └── master.py                 # Application entry point
 ├── docker-compose.yml            # Local Postgres setup
 └── requirements.txt              # Python dependencies
+```
 
 ## Key Capabilities
 
