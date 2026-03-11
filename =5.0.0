@@ -1,0 +1,18 @@
+Collecting pinecone
+  Downloading pinecone-8.1.0-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: certifi>=2019.11.17 in ./venv/lib/python3.12/site-packages (from pinecone) (2026.1.4)
+Requirement already satisfied: orjson>=3.0.0 in ./venv/lib/python3.12/site-packages (from pinecone) (3.11.5)
+Requirement already satisfied: pinecone-plugin-assistant<4.0.0,>=3.0.1 in ./venv/lib/python3.12/site-packages (from pinecone) (3.0.1)
+Requirement already satisfied: pinecone-plugin-interface<0.1.0,>=0.0.7 in ./venv/lib/python3.12/site-packages (from pinecone) (0.0.7)
+Requirement already satisfied: python-dateutil>=2.5.3 in ./venv/lib/python3.12/site-packages (from pinecone) (2.9.0.post0)
+Requirement already satisfied: typing-extensions>=3.7.4 in ./venv/lib/python3.12/site-packages (from pinecone) (4.15.0)
+Requirement already satisfied: urllib3>=1.26.5 in ./venv/lib/python3.12/site-packages (from pinecone) (2.6.3)
+Requirement already satisfied: packaging<25.0,>=24.2 in ./venv/lib/python3.12/site-packages (from pinecone-plugin-assistant<4.0.0,>=3.0.1->pinecone) (24.2)
+Requirement already satisfied: requests<3.0.0,>=2.32.3 in ./venv/lib/python3.12/site-packages (from pinecone-plugin-assistant<4.0.0,>=3.0.1->pinecone) (2.32.5)
+Requirement already satisfied: six>=1.5 in ./venv/lib/python3.12/site-packages (from python-dateutil>=2.5.3->pinecone) (1.17.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./venv/lib/python3.12/site-packages (from requests<3.0.0,>=2.32.3->pinecone-plugin-assistant<4.0.0,>=3.0.1->pinecone) (3.4.4)
+Requirement already satisfied: idna<4,>=2.5 in ./venv/lib/python3.12/site-packages (from requests<3.0.0,>=2.32.3->pinecone-plugin-assistant<4.0.0,>=3.0.1->pinecone) (3.11)
+Downloading pinecone-8.1.0-py3-none-any.whl (742 kB)
+   ━━━━━━━━━━━━━━━━━ 742.7/742.7 kB 7.2 MB/s eta 0:00:00
+Installing collected packages: pinecone
+Successfully installed pinecone-8.1.0

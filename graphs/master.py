@@ -32,7 +32,7 @@ def travel_stub(state: InsuranceState):
 def hitl_clarify_intent(state: InsuranceState):
     ans =  interrupt({
         "type": "ambiguous",
-        "reason": "User is fucking stupid and doesn't know how to write a clear input",
+        "reason": "User has not clearly specified the type of insurance they are looking for.",
         "questions": ["Are you looking for life, health or travel insurance?"],
         "instruction": "Please specify the label? life / health / travel."
     })
@@ -44,7 +44,7 @@ def hitl_clarify_intent(state: InsuranceState):
 # Build Graph
 builder = StateGraph(InsuranceState)
 
-builder.add_node("master_node",master_node)
+builder.add_node("master_node", master_node)
 builder.add_node("life", life_subgraph)
 builder.add_node("health", health_stub)
 builder.add_node("travel", travel_stub)
@@ -65,62 +65,55 @@ builder.add_edge("health", END)
 builder.add_edge("travel", END)
 builder.add_edge("hitl_intent", "master_node")
 
-config = {
-    "configurable": {
-        "thread_id": "pratik-session-4" # Created: ["pratik-session-1", "pratik-session-2", "pratik-session-3"]
-    }    
-}
+def get_graph(checkpointer):
+    """Returns the compiled graph using the provided checkpointer."""
+    return builder.compile(checkpointer=checkpointer)
 
-with get_checkpointer() as checkpointer:
-    checkpointer.setup()
-    graph = builder.compile(checkpointer=checkpointer)
-
-    current_input = {
-        "messages": [
-            HumanMessage(content="yes, i would like to calculate the monthly premium for this cover amount in royal sundaram and wanna see how it is as a company, is it reliable?")
-        ]
+if __name__ == "__main__":
+    config = {
+        "configurable": {
+            "thread_id": "pratik-session-4" # Created: ["pratik-session-1", "pratik-session-2", "pratik-session-3"]
+        },
+        "recursion_limit": 15
     }
 
-    while True:
-            interrupted = False
-            # subgraphs=True is mandatory to catch the 'interrupt' inside the life node
-            for namespace, message in graph.stream(current_input, config=config, subgraphs=True):
-                
-                if "__interrupt__" in message:
-                    interrupt_data = message["__interrupt__"][0].value
-                    
-                    # Handles both intent_hitl (instruction) and intake_hitl (message)
-                    display_msg = interrupt_data.get("message") or interrupt_data.get("instruction")
-                    print(f"\n[AI Advisor]: {display_msg}")
-                    
-                    answer = input("> ").strip()
+    with get_checkpointer() as checkpointer:
+        checkpointer.setup()
+        graph = get_graph(checkpointer)
 
-                    # We RESUME with the raw string answer. 
-                    # This string is what 'ans = interrupt(...)' returns in the node code.
-                    current_input = Command(resume=answer)
-                    interrupted = True
+        current_input = {
+            "messages": [
+                HumanMessage(content="yes, i would like to calculate the monthly premium for this cover amount in royal sundaram and wanna see how it is as a company, is it reliable?")
+            ]
+        }
+
+        try:
+            while True:
+                interrupted = False
+                # subgraphs=True is mandatory to catch the 'interrupt' inside the life node
+                for namespace, message in graph.stream(current_input, config=config, subgraphs=True):
+                    
+                    if "__interrupt__" in message:
+                        interrupt_data = message["__interrupt__"][0].value
+                        
+                        # Handles both intent_hitl (instruction) and intake_hitl (message)
+                        display_msg = interrupt_data.get("message") or interrupt_data.get("instruction")
+                        print(f"\n[AI Advisor]: {display_msg}")
+                        
+                        answer = input("> ").strip()
+
+                        # We RESUME with the raw string answer. 
+                        # This string is what 'ans = interrupt(...)' returns in the node code.
+                        current_input = Command(resume=answer)
+                        interrupted = True
+                        break
+                    
+                    # Print the flow for debugging
+                    # print(f"Node: {namespace} | State Updated")
+
+                if not interrupted:
+                    # If the graph reaches END, we wait for a brand new user message
+                    print("\n--- Session Complete ---")
                     break
-                
-                # Print the flow for debugging
-                # print(f"Node: {namespace} | State Updated")
-
-            if not interrupted:
-                # If the graph reaches END, we wait for a brand new user message
-                print("\n--- Session Complete ---")
-                break
-                
-
-
-
-
-
-
-
-
-
-
-
-
-# intent router edge cases
-
-# hitl intent passthrough
+        except Exception as e:
+            print(f"\n[Error]: {e}")

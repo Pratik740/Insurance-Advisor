@@ -48,7 +48,7 @@ def merger_node(state: TermLifeState):
     
     GUIDELINES:
     - If explaining recommendations, highlight WHY they fit the user's income/age.
-    - If comparing, use Markdown tables for clarity.
+    - ALWAYS format policy quotes, product features, and policy comparisons in strict Markdown tables. Do not present plan details as plain text. Use columns like Company, Plan Name, Term, Cover Amount, Premium, etc.
     - Always end with a helpful next step (e.g., "Would you like to see the riders for these plans?").
 
     STRATEGIC FOLLOW-UP RULES:

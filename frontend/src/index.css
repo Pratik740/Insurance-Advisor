@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-200: #bfdbfe;
+  --color-primary-300: #93c5fd;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-primary-800: #1e40af;
+  --color-primary-900: #1e3a8a;
+  
+  --color-dark-bg: #09090b;
+  --color-dark-surface: #18181b;
+  --color-dark-border: #27272a;
+}
+
+body {
+  @apply bg-dark-bg text-zinc-100 font-sans antialiased h-screen w-screen overflow-hidden;
+}
+
+/* Force code blocks to wrap */
+pre {
+  white-space: pre-wrap !important;
+  word-break: break-all !important;
+  overflow-wrap: break-word !important;
+}
+
+/* Glassmorphism utilities */
+.glass-panel {
+  @apply bg-dark-surface/70 backdrop-blur-md border border-white/5;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-zinc-700/50 rounded-full;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  @apply bg-zinc-600/80;
+}
+
+/* Rich Markdown Table Styling */
+.markdown-table-wrapper {
+  @apply overflow-hidden rounded-xl border border-zinc-800 my-4 shadow-sm bg-zinc-900/40;
+}
+
+.markdown-table {
+  @apply w-full text-left text-sm text-zinc-300 border-collapse;
+}
+
+.markdown-table th {
+  @apply bg-zinc-800/80 px-4 py-3 font-medium text-zinc-100 uppercase tracking-wider text-xs border-b border-zinc-700;
+}
+
+.markdown-table td {
+  @apply px-4 py-3 border-b border-zinc-800/50 transition-colors;
+}
+
+.markdown-table tbody tr:hover td {
+  @apply bg-zinc-800/30;
+}
+
+.markdown-table tbody tr:last-child td {
+  @apply border-0;
+}

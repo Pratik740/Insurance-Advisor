@@ -2,8 +2,9 @@ from core.state import UserProfile, InsuranceState, master_config
 from google import genai
 from dotenv import load_dotenv
 from langchain_core.messages import HumanMessage, AIMessage
+import os
 
-load_dotenv()
+load_dotenv(override=True)
 client = genai.Client()
 
 def normalize_intent(raw: str | None) -> str | None:
@@ -23,6 +24,7 @@ def normalize_intent(raw: str | None) -> str | None:
 
 def master_node(state: InsuranceState):
     print("Master_Advisor_Node")
+    print(os.getenv("GEMINI_API_KEY"))
 
     chat_history = ""
     for msg in state["messages"]:
