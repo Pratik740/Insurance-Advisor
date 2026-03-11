@@ -1,0 +1,101 @@
+<h2>Which sections should the dashboard include?</h2>
+<p class="subtitle">Select all that apply — these become the sidebar navigation items</p>
+
+<div style="display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap;">
+
+  <!-- Left: section picker -->
+  <div class="options" data-multiselect style="flex:1;min-width:300px;">
+
+    <div class="option" data-choice="chat" onclick="toggleSelect(this)" style="border-left:3px solid #fff;">
+      <div class="letter">✦</div>
+      <div class="content">
+        <h3>AI Chat <span style="font-size:11px;color:#666;font-weight:400;">(core — always included)</span></h3>
+        <p>The main advisor interface with SSE streaming, message history, and follow-up pills.</p>
+      </div>
+    </div>
+
+    <div class="option" data-choice="profile" onclick="toggleSelect(this)">
+      <div class="letter">◈</div>
+      <div class="content">
+        <h3>My Profile</h3>
+        <p>User details form: age, income, smoker status, occupation, dependents. Pre-fills the chat context automatically.</p>
+      </div>
+    </div>
+
+    <div class="option" data-choice="compare" onclick="toggleSelect(this)">
+      <div class="letter">⊞</div>
+      <div class="content">
+        <h3>Plan Comparison</h3>
+        <p>Side-by-side table of recommended plans with sortable columns, filters by premium/CSR/cover, highlight best value.</p>
+      </div>
+    </div>
+
+    <div class="option" data-choice="history" onclick="toggleSelect(this)">
+      <div class="letter">◷</div>
+      <div class="content">
+        <h3>Conversation History</h3>
+        <p>Past chat sessions with search, resume any thread, timestamps. Shows session summaries.</p>
+      </div>
+    </div>
+
+    <div class="option" data-choice="library" onclick="toggleSelect(this)">
+      <div class="letter">◫</div>
+      <div class="content">
+        <h3>Policy Library</h3>
+        <p>Browse all available insurance plans by company/type. Expandable cards with riders, benefits, exclusions.</p>
+      </div>
+    </div>
+
+    <div class="option" data-choice="quotes" onclick="toggleSelect(this)">
+      <div class="letter">◎</div>
+      <div class="content">
+        <h3>Saved Quotes</h3>
+        <p>Plans saved from chat sessions. Download PDF, compare, or share. Quick re-calculate with updated profile.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Right: live preview of sidebar -->
+  <div style="width:200px;flex-shrink:0;">
+    <div style="background:#0f0f0f;border:1px solid #1a1a1a;border-radius:10px;padding:12px;font-family:monospace;">
+      <div style="font-size:10px;color:#444;margin-bottom:10px;text-transform:uppercase;letter-spacing:1px;">Sidebar Preview</div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:14px;">
+        <div style="width:24px;height:24px;background:#fff;border-radius:6px;"></div>
+        <div>
+          <div style="height:4px;background:#fff;border-radius:2px;width:80px;margin-bottom:3px;"></div>
+          <div style="height:3px;background:#2a2a2a;border-radius:2px;width:50px;"></div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:2px;">
+        <div style="background:#1a1a1a;border-radius:5px;padding:7px 10px;display:flex;align-items:center;gap:7px;">
+          <div style="width:12px;height:12px;background:#fff;border-radius:2px;"></div>
+          <div style="height:4px;background:#fff;border-radius:2px;width:60px;"></div>
+        </div>
+        <div style="border-radius:5px;padding:7px 10px;display:flex;align-items:center;gap:7px;">
+          <div style="width:12px;height:12px;background:#222;border-radius:2px;"></div>
+          <div style="height:4px;background:#2a2a2a;border-radius:2px;width:50px;"></div>
+        </div>
+        <div style="border-radius:5px;padding:7px 10px;display:flex;align-items:center;gap:7px;">
+          <div style="width:12px;height:12px;background:#222;border-radius:2px;"></div>
+          <div style="height:4px;background:#2a2a2a;border-radius:2px;width:70px;"></div>
+        </div>
+        <div style="border-radius:5px;padding:7px 10px;display:flex;align-items:center;gap:7px;">
+          <div style="width:12px;height:12px;background:#222;border-radius:2px;"></div>
+          <div style="height:4px;background:#2a2a2a;border-radius:2px;width:80px;"></div>
+        </div>
+        <div style="height:1px;background:#1a1a1a;margin:6px 0;"></div>
+        <div style="border-radius:5px;padding:7px 10px;display:flex;align-items:center;gap:7px;">
+          <div style="width:12px;height:12px;background:#1a1a1a;border-radius:50%;"></div>
+          <div style="height:4px;background:#1a1a1a;border-radius:2px;width:55px;"></div>
+        </div>
+      </div>
+    </div>
+    <p style="font-size:11px;color:#555;margin-top:8px;text-align:center;">AI Chat is always first. Others follow in order selected.</p>
+  </div>
+
+</div>
+
+<div class="section" style="margin-top:20px;padding:14px;background:#0a0a0a;border:1px solid #1a1a1a;border-radius:8px;">
+  <p class="subtitle" style="font-size:12px;margin:0;">💡 <strong style="color:#888;">Recommendation:</strong> Start with Chat + Profile + Plan Comparison + History. These 4 make the strongest product with the least implementation complexity. Policy Library and Saved Quotes can be added later.</p>
+</div>

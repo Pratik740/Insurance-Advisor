@@ -1,26 +1,41 @@
 @import "tailwindcss";
 
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+@custom-variant dark (&:is(.dark *));
 
-  --color-primary-50: #eff6ff;
-  --color-primary-100: #dbeafe;
-  --color-primary-200: #bfdbfe;
-  --color-primary-300: #93c5fd;
-  --color-primary-400: #60a5fa;
-  --color-primary-500: #3b82f6;
-  --color-primary-600: #2563eb;
-  --color-primary-700: #1d4ed8;
-  --color-primary-800: #1e40af;
-  --color-primary-900: #1e3a8a;
-  
-  --color-dark-bg: #09090b;
-  --color-dark-surface: #18181b;
-  --color-dark-border: #27272a;
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Obsidian Minimal palette */
+  --color-bg:           #080808;
+  --color-surface:      #0f0f0f;
+  --color-surface-2:    #111111;
+  --color-border:       #1a1a1a;
+  --color-border-2:     #222222;
+  --color-text:         #e4e4e7;
+  --color-text-2:       #888888;
+  --color-text-muted:   #444444;
+  --color-accent:       #ffffff;
+
+  /* Backwards compat — all primary-* map to white/near-white */
+  --color-primary-50:   #f4f4f5;
+  --color-primary-100:  #e4e4e7;
+  --color-primary-200:  #d4d4d8;
+  --color-primary-300:  #a1a1aa;
+  --color-primary-400:  #71717a;
+  --color-primary-500:  #ffffff;
+  --color-primary-600:  #e4e4e7;
+  --color-primary-700:  #d4d4d8;
+  --color-primary-800:  #a1a1aa;
+  --color-primary-900:  #71717a;
+
+  /* Legacy aliases */
+  --color-dark-bg:      #080808;
+  --color-dark-surface: #0f0f0f;
+  --color-dark-border:  #1a1a1a;
 }
 
 body {
-  @apply bg-dark-bg text-zinc-100 font-sans antialiased h-screen w-screen overflow-hidden;
+  @apply bg-bg text-text font-sans antialiased h-screen w-screen overflow-hidden;
 }
 
 /* Force code blocks to wrap */
@@ -30,48 +45,59 @@ pre {
   overflow-wrap: break-word !important;
 }
 
-/* Glassmorphism utilities */
-.glass-panel {
-  @apply bg-dark-surface/70 backdrop-blur-md border border-white/5;
-}
-
-.custom-scrollbar::-webkit-scrollbar {
-  width: 6px;
-}
-
-.custom-scrollbar::-webkit-scrollbar-track {
-  @apply bg-transparent;
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  @apply bg-zinc-700/50 rounded-full;
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  @apply bg-zinc-600/80;
-}
-
-/* Rich Markdown Table Styling */
+/* Rich Markdown Table Styling — Obsidian theme */
 .markdown-table-wrapper {
-  @apply overflow-hidden rounded-xl border border-zinc-800 my-4 shadow-sm bg-zinc-900/40;
+  @apply overflow-hidden rounded-lg border border-[#1e1e1e] my-3 bg-[#0a0a0a];
 }
-
-.markdown-table {
-  @apply w-full text-left text-sm text-zinc-300 border-collapse;
-}
-
+.markdown-table { @apply w-full text-left text-xs border-collapse; }
 .markdown-table th {
-  @apply bg-zinc-800/80 px-4 py-3 font-medium text-zinc-100 uppercase tracking-wider text-xs border-b border-zinc-700;
+  @apply bg-[#141414] px-3 py-2 font-medium text-[#888] uppercase tracking-wider
+         text-[10px] border-b border-[#1e1e1e];
+}
+.markdown-table td { @apply px-3 py-2 border-b border-[#161616] text-[#aaa]; }
+.markdown-table tbody tr:hover td { @apply bg-[#0f0f0f]; }
+.markdown-table tbody tr:last-child td { @apply border-0; }
+
+/* Paragraph and list spacing in AI responses */
+.prose p { @apply my-1.5; }
+.prose ul, .prose ol { @apply my-1.5; }
+.prose li { @apply my-0.5; }
+
+@keyframes typing-bounce {
+  0%, 80%, 100% { transform: scale(0.6); opacity: 0.3; }
+  40% { transform: scale(1); opacity: 1; }
 }
 
-.markdown-table td {
-  @apply px-4 py-3 border-b border-zinc-800/50 transition-colors;
-}
-
-.markdown-table tbody tr:hover td {
-  @apply bg-zinc-800/30;
-}
-
-.markdown-table tbody tr:last-child td {
-  @apply border-0;
+/* MagicUI shimmer + shiny-text animations */
+@theme inline {
+  --animate-shimmer-slide: shimmer-slide var(--speed) ease-in-out infinite alternate;
+  --animate-spin-around: spin-around calc(var(--speed) * 2) infinite linear;
+  @keyframes shimmer-slide {
+    to {
+      transform: translate(calc(100cqw - 100%), 0);
+    }
+  }
+  @keyframes spin-around {
+    0% {
+      transform: translateZ(0) rotate(0);
+    }
+    15%, 35% {
+      transform: translateZ(0) rotate(90deg);
+    }
+    65%, 85% {
+      transform: translateZ(0) rotate(270deg);
+    }
+    100% {
+      transform: translateZ(0) rotate(360deg);
+    }
+  }
+  --animate-shiny-text: shiny-text 8s infinite;
+  @keyframes shiny-text {
+    0%, 90%, 100% {
+      background-position: calc(-100% - var(--shiny-width)) 0;
+    }
+    30%, 60% {
+      background-position: calc(100% + var(--shiny-width)) 0;
+    }
+  }
 }

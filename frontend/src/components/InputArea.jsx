@@ -1,8 +1,11 @@
 import { useState, useRef, useEffect } from 'react'
-import { Send, Sparkles } from 'lucide-react'
+import { Send } from 'lucide-react'
+import { BorderBeam } from './magicui/border-beam'
+import { ShimmerButton } from './magicui/shimmer-button'
 
 export default function InputArea({ onSend, disabled }) {
   const [text, setText] = useState('')
+  const [focused, setFocused] = useState(false)
   const textareaRef = useRef(null)
 
   const handleSend = () => {
@@ -19,7 +22,6 @@ export default function InputArea({ onSend, disabled }) {
     }
   }
 
-  // Auto-resize textarea
   useEffect(() => {
     if (textareaRef.current) {
       textareaRef.current.style.height = 'auto'
@@ -28,27 +30,36 @@ export default function InputArea({ onSend, disabled }) {
   }, [text])
 
   return (
-    <div className="relative flex items-end w-full glass-panel rounded-2xl px-3 py-3 ring-1 ring-inset ring-dark-border focus-within:ring-1 focus-within:ring-primary-500 transition-all shadow-lg">
-      <div className="flex shrink-0 items-center justify-center h-10 w-10 mr-1 hidden sm:flex">
-         <Sparkles className="w-5 h-5 text-zinc-500" />
-      </div>
+    <div
+      className="relative flex items-end w-full bg-[#0f0f0f] border border-[#1e1e1e] rounded-xl px-3 py-2.5 transition-colors overflow-hidden"
+      style={{ borderColor: focused ? '#333' : undefined }}
+    >
       <textarea
         ref={textareaRef}
         value={text}
-        onChange={(e) => setText(e.target.value)}
+        onChange={e => setText(e.target.value)}
         onKeyDown={handleKeyDown}
+        onFocus={() => setFocused(true)}
+        onBlur={() => setFocused(false)}
         placeholder="Ask anything about Life, Health, or Travel insurance..."
-        className="flex-1 max-h-48 min-h-[40px] bg-transparent border-0 resize-none py-2 px-2 text-white placeholder-zinc-500 focus:outline-none sm:text-base text-sm custom-scrollbar"
+        className="flex-1 max-h-48 min-h-[24px] bg-transparent border-0 resize-none py-1 px-1 text-[#e4e4e7] placeholder-[#2a2a2a] focus:outline-none text-[13px] leading-relaxed"
         rows={1}
         disabled={disabled}
       />
-      <button
+      <ShimmerButton
         onClick={handleSend}
         disabled={!text.trim() || disabled}
-        className="shrink-0 flex items-center w-10 h-10 justify-center rounded-xl bg-primary-600 text-white hover:bg-primary-500 disabled:opacity-50 disabled:hover:bg-primary-600 transition-colors ml-2 cursor-pointer"
+        shimmerColor="#888888"
+        background="#ffffff"
+        borderRadius="8px"
+        className="shrink-0 w-8 h-8 ml-2 flex items-center justify-center disabled:opacity-30 disabled:cursor-not-allowed"
       >
-        <Send className="w-4 h-4 ml-[-2px]" />
-      </button>
+        <Send className="w-3.5 h-3.5 text-black" />
+      </ShimmerButton>
+
+      {focused && (
+        <BorderBeam size={80} duration={3} colorFrom="#ffffff" colorTo="#444444" />
+      )}
     </div>
   )
 }

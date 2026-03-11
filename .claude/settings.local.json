@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Shivi/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.1/**)",
+      "Bash(bash scripts/start-server.sh --project-dir /c/Users/Shivi/repos/Insurance-Advisor)",
+      "mcp__magicui__listRegistryItems",
+      "Bash(python3 -c \"\nimport os\nsrc = 'C:/Users/Shivi/repos/Insurance-Advisor/frontend/src/components/library/LibrarySection.jsx'\ntarget = 'C:/Users/Shivi/repos/Insurance-Advisor/data/term_life_companies.json'\nrel = os.path.relpath\\(os.path.dirname\\(target\\), os.path.dirname\\(src\\)\\)\nprint\\('Relative path from LibrarySection.jsx dir to data dir:', rel\\)\nprint\\('Full import path:', rel.replace\\(chr\\(92\\), '/'\\) + '/term_life_companies.json'\\)\n\")",
+      "Bash(cd /c/Users/Shivi/repos/Insurance-Advisor/frontend && npm install remark-gfm react-markdown framer-motion clsx tailwind-merge class-variance-authority lucide-react canvas-confetti 2>&1)",
+      "Bash(npx shadcn@latest init --yes 2>&1 | head -40)",
+      "Bash(echo \"y\" | npx shadcn@latest init --yes 2>&1 | tail -20)",
+      "Bash(printf 'y\\\\ny\\\\n' | npx shadcn@latest init 2>&1 | tail -20)",
+      "Bash(npx shadcn@latest add button input label select card table accordion scroll-area separator badge --yes 2>&1 | tail -30)",
+      "Bash(npx magicui@latest add border-beam magic-card number-ticker blur-fade shimmer-button dot-pattern morphing-text confetti animated-shiny-text --yes 2>&1 | tail -30)",
+      "Bash(npx magicui-cli@latest add border-beam --yes 2>&1 | tail -15)",
+      "Bash(npx --yes magicui@latest add border-beam 2>&1 | tail -15)",
+      "Bash(npx shadcn@latest add https://magicui.design/r/border-beam.json --yes 2>&1 | tail -20)",
+      "Bash(for comp:*)",
+      "Bash(npx shadcn@latest add \"https://magicui.design/r/confetti.json\" --yes 2>&1)",
+      "Bash(mkdir -p /c/Users/Shivi/repos/Insurance-Advisor/frontend/src/components/magicui\ncd /c/Users/Shivi/repos/Insurance-Advisor/frontend/src/components\nmv ui/animated-shiny-text.jsx ui/blur-fade.jsx ui/border-beam.jsx ui/dot-pattern.jsx ui/magic-card.jsx ui/morphing-text.jsx ui/number-ticker.jsx ui/shimmer-button.jsx magicui/\nls magicui/)",
+      "Bash(cd /c/Users/Shivi/repos/Insurance-Advisor/frontend/src/components/magicui && sed -i 's|from \"src/lib/utils\"|from \"@/lib/utils\"|g' *.jsx && echo \"Fixed\" && grep -l \"src/lib/utils\" *.jsx 2>/dev/null && echo \"none remain\")",
+      "Bash(cd /c/Users/Shivi/repos/Insurance-Advisor/frontend && npm install next-themes 2>&1 | tail -5)",
+      "Bash(npm list:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
